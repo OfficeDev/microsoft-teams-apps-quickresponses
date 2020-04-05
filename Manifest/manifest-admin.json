@@ -1,0 +1,54 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.0",
+  "id": "23e0f7b5-ffeb-4ce5-ac04-d7b6d7a4e605",
+  "packageName": "com.microsoft.teams.apptemplates.quickresponse",
+  "developer": {
+    "name": "<developer name>",
+    "websiteUrl": "<website url>",
+    "privacyUrl": "<privacy url>",
+    "termsOfUseUrl": "<terms of use url>"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Quick Response",
+  },
+  "description": {
+    "short": "Set up and send quick responses using messaging extension.",
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "<<botId>>",
+      "scopes": [
+        "team"
+      ],
+      "commandLists": [
+        {
+          "scopes": [
+            "team"
+          ],
+          "commands": [
+            {
+              "title": "Take a tour",
+              "description": "Take a tour"
+            }
+          ]
+        }
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": true
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "<<appDomain>>"
+  ]
+}
