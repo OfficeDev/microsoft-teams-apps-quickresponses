@@ -165,7 +165,7 @@ namespace Microsoft.Teams.Apps.CannedResponses.Cards
 
             bool showRemarkField = !string.IsNullOrEmpty(userRequestDetails.ApprovalRemark);
             var formattedDateTime = userRequestDetails.ApprovedOrRejectedDate.ToString(Constants.Rfc3339DateTimeFormat, CultureInfo.InvariantCulture);
-            string dateString = string.Format(CultureInfo.InvariantCulture, localizer.GetString("DateFormat"), "{{DATE(" + formattedDateTime + ", SHORT)}}", "{{TIME(" + formattedDateTime + ")}}");
+            string dateString = string.Format(CultureInfo.InvariantCulture, localizer.GetString("DateFormat"), "{{DATE(" + formattedDateTime + ", COMPACT)}}", "{{TIME(" + formattedDateTime + ")}}");
 
             AdaptiveCard card = new AdaptiveCard(new AdaptiveSchemaVersion(1, 2))
             {

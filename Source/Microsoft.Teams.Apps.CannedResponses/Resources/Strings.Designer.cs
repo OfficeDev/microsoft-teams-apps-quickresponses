@@ -11,7 +11,6 @@
 namespace Microsoft.Teams.Apps.CannedResponses {
     using System;
     
-    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -390,15 +389,6 @@ namespace Microsoft.Teams.Apps.CannedResponses {
         public static string Label {
             get {
                 return ResourceManager.GetString("Label", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Last updated:.
-        /// </summary>
-        public static string LastUpdatedText {
-            get {
-                return ResourceManager.GetString("LastUpdatedText", resourceCulture);
             }
         }
         

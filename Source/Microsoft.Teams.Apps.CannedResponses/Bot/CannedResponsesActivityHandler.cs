@@ -263,6 +263,8 @@ namespace Microsoft.Teams.Apps.CannedResponses.Bot
         {
             try
             {
+                turnContext = turnContext ?? throw new ArgumentNullException(nameof(turnContext));
+                this.RecordEvent(nameof(this.OnTurnAsync), turnContext);
                 this.userState.SaveChangesAsync(turnContext, false, cancellationToken);
                 return base.OnTurnAsync(turnContext, cancellationToken);
             }

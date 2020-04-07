@@ -35,9 +35,9 @@ export interface ICompanyResponsesState {
 }
 
 export interface IAppSettings {
-    token: string,
-    telemetry: string,
-    theme: string
+    token: string | null,
+    telemetry: string | null,
+    theme: string | null
 }
 
 export class CompanyResponsePage extends React.Component<{}, ICompanyResponsesState> {
@@ -48,14 +48,15 @@ export class CompanyResponsePage extends React.Component<{}, ICompanyResponsesSt
     locale?: string | null;
     userObjectId?: string = "";
     appInsights: ApplicationInsights;
+    appSettings: IAppSettings = { telemetry: "", theme: "", token: "" };
 
     constructor(props: any) {
         super(props);
         let search = window.location.search;
         let params = new URLSearchParams(search);
-        this.theme = params.get("theme");
-        this.token = params.get("token");
-        this.telemetry = params.get("telemetry");
+        this.theme = this.appSettings.theme = params.get("theme");
+        this.token = this.appSettings.token = params.get("token");
+        this.telemetry = this.appSettings.telemetry = params.get("telemetry");
         this.locale = params.get("locale");
 
         this.state = {
@@ -80,6 +81,8 @@ export class CompanyResponsePage extends React.Component<{}, ICompanyResponsesSt
             ],
             resourceStrings: {}
         }
+
+        window.localStorage.setItem("appsettings", JSON.stringify(this.appSettings));
 
         // Initialize application insights for logging events and errors.
         this.appInsights = getApplicationInsightsInstance(this.telemetry, browserHistory);

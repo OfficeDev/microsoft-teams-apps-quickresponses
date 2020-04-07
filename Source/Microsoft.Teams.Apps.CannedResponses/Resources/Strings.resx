@@ -249,10 +249,6 @@
     <value>Category</value>
     <comment>Label text used in form for client app.</comment>
   </data>
-  <data name="LastUpdatedText" xml:space="preserve">
-    <value>Last updated:</value>
-    <comment>Last updated text to show on messaging extension cards.</comment>
-  </data>
   <data name="ManageYourResponsesTitleText" xml:space="preserve">
     <value>Manage your responses</value>
     <comment>Manage your responses subtitle text shown below the bot name when my responses or company responses task module opens.</comment>

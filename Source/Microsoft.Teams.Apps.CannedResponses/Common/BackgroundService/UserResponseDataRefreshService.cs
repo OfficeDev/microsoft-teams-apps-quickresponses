@@ -121,8 +121,8 @@ namespace Microsoft.Teams.Apps.CannedResponses.Common.BackgroundService
             var count = Interlocked.Increment(ref this.executionCount);
             this.logger.LogInformation("Search service indexes, indexer re-creation Hosted Service is working. Count: {Count}", count);
 
-            // Run after every 15 minute(s).
-            this.timer = new System.Timers.Timer(900000);
+            // Run after every 10 minute(s).
+            this.timer = new System.Timers.Timer(600000);
 
             this.timer.Elapsed += async (sender, args) =>
             {

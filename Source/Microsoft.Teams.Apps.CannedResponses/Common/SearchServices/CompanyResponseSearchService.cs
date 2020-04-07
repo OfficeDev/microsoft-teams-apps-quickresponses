@@ -135,7 +135,7 @@ namespace Microsoft.Teams.Apps.CannedResponses.Common.SearchServices
                 Top = isTaskModuleData ? count : Constants.DefaultSearchResultCount,
                 Skip = skip ?? 0,
                 IncludeTotalResultCount = false,
-                Select = new[] { "ResponseId", "QuestionLabel", "QuestionText", "ResponseText", "UserId", "CreatedBy", "CreatedDate", "UserRequestType", "LastUpdatedDate", "LastUpdatedBy", "ApproverUserId", "ApprovedOrRejectedBy", "ApprovalStatus", "ApprovalRemark", "ActivityId", "ConversationId", "ApprovedOrRejectedDate" },
+                Select = new[] { "ResponseId", "QuestionLabel", "QuestionText", "ResponseText", "UserId", "CreatedBy", "CreatedDate", "UserRequestType", "LastUpdatedDate", "LastUpdatedBy", "ApproverUserId", "ApprovedOrRejectedBy", "ApprovalStatus", "ApprovalRemark", "ActivityId", "ApprovedOrRejectedDate" },
             };
 
             var companyResponsesResult = await this.searchIndexClient.Documents.SearchAsync<CompanyResponseEntity>(searchQuery, searchParameters);

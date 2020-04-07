@@ -136,7 +136,7 @@ namespace Microsoft.Teams.Apps.CannedResponses.Helpers
                     ThumbnailCard previewCard = new ThumbnailCard
                     {
                         Title = userResponse.ResponseText,
-                        Text = $"{userResponse.QuestionLabel} | {localizer.GetString("LastUpdatedText")} {userResponse.LastUpdatedDate}",
+                        Text = $"{userResponse.QuestionLabel}",
                     };
 
                     composeExtensionResult.Attachments.Add(new Attachment
@@ -184,7 +184,7 @@ namespace Microsoft.Teams.Apps.CannedResponses.Helpers
                     ThumbnailCard previewCard = new ThumbnailCard
                     {
                         Title = companyResponse.ResponseText,
-                        Text = $"{companyResponse.QuestionLabel} | {localizer.GetString("LastUpdatedText")} {companyResponse.LastUpdatedDate} {localizer.GetString("UpdatedByText")} {companyResponse.CreatedBy}",
+                        Text = $"{companyResponse.QuestionLabel} | {localizer.GetString("UpdatedByText")} {companyResponse.CreatedBy}",
                     };
 
                     composeExtensionResult.Attachments.Add(new Attachment
