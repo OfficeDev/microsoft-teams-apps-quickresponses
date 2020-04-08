@@ -157,3 +157,11 @@
 .table-label-cell{
 	max-width:10rem;
 }
+
+.darkContainer .commandbar-wrapper {
+	background-color: black;
+}
+
+.highContrastContainer .commandbar-wrapper {
+	background-color: black;
+}

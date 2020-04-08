@@ -11,11 +11,15 @@ urlFragment: microsoft-teams-apps-quickresponses
 | [Documentation](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Home) | [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Deployment-Guide) | [Architecture](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Solution-Overview) |
 | ---- | ---- | ---- |
 
-In fields such as technical support, quick responses to frequently asked questions may be an effective solution for both the customer and the technical adviser, as they offer the possibility to provide a quick answer to common questions while requiring little human intervention. 
+In fields such as technical support, quick responses to frequently asked questions is an effective solution for both the customer and technical professionals, as it offers the possibility of providing a quick answer to common questions while requiring little human intervention. 
  
-Often, sales representatives or technical support professionals send the same or similar responses to questions asked by users. However, time spent drafting these are not the best use of their time. One of the best ways to increase productivity? Cut back on the amount of time spent writing and collating these responses by using Quick responses app in Microsoft teams.
+In addition, sales representatives or technical support professionals send same or similar responses to questions asked by customers and users. However, time spent drafting these are not the best use of their time. Increase productivity and cut back on the amount of time spent writing and collating these responses by using Quick Responses app in Microsoft Teams.
  
-Using the Quick Responses app in Microsoft Teams, users can build their library of quick responses and use Messaging Extension to search and insert the quick response in compose box saving time and effort. In addition, they can add a response to their existing list of saved responses using an existing chat conversation invoking the app through a Message Action. Users can also tap into a centrally published library of quick responses to stay current & accurate. 
+Using the Quick Responses app in Microsoft Teams, users can build their library of quick responses and use the Messaging Extension to search and insert the quick response in compose box saving time and effort. In addition, they can add a response to their existing list of saved responses using an existing chat conversation invoking the app through a Message Action. Users can also tap into a centrally published library of quick responses to stay current & accurate. 
+
+![Quick responses messaging extension search](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Images/MessagingExtension.png)
+
+![Quick responses your search task module](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Images/YourResponsesTaskModule.png)
 
 ## Legal Notice
 Please read the license terms applicable to this app template [here](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/blob/master/LICENSE). In addition to these terms, by using this app template you agree to the following:

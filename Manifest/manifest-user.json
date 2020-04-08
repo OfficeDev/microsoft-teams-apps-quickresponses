@@ -3,9 +3,9 @@
   "manifestVersion": "1.5",
   "version": "1.0.0",
   "id": "29fa40ad-9846-444f-b0df-eab818d8b70a",
-  "packageName": "com.microsoft.teams.apptemplates.cannedresponse",
+  "packageName": "com.microsoft.teams.apptemplates.quickresponses",
   "developer": {
-    "name": "Contoso",
+    "name": "<developer name>",
     "websiteUrl": "<website url>",
     "privacyUrl": "<privacy url>",
     "termsOfUseUrl": "<terms of use url>"
@@ -15,12 +15,12 @@
     "outline": "outline.png"
   },
   "name": {
-    "short": "Template Base",
-    "full": "Teams App Template Base"
+    "short": "Quick Responses",
+    "full": "Quick Responses Bot"
   },
   "description": {
-    "short": "A Short description of the app",
-    "full": "A Longer description of the app"
+    "short": "Set up and send quick responses using messaging extension.",
+    "full": "Manage your quick responses and share within a team or in personal chat from messaging extension."
   },
   "accentColor": "#FFFFFF",
   "bots": [
@@ -43,7 +43,7 @@
         }
       ],
       "supportsFiles": false,
-      "isNotificationOnly": false
+      "isNotificationOnly": true
     }
   ],
   "composeExtensions": [
@@ -54,7 +54,7 @@
         {
           "id": "yourResponses",
           "title": "Your responses",
-          "description": "Your responses",
+          "description": "Share your quick responses",
           "initialRun": true,
           "parameters": [
             {
@@ -67,7 +67,7 @@
         {
           "id": "companyResponses",
           "title": "Company responses",
-          "description": "Company Responses",
+          "description": "Share company quick responses",
           "initialRun": true,
           "parameters": [
             {
@@ -81,7 +81,7 @@
           "id": "YourResponses",
           "type": "action",
           "title": "Your responses",
-          "description": "Add a qna pair",
+          "description": "Manage your quick responses",
           "initialRun": true,
           "fetchTask": true,
           "context": [
@@ -91,7 +91,7 @@
             {
               "name": "yourResponses",
               "title": "yourResponses",
-              "description": "Add a qna pair"
+              "description": "Manage your quick responses"
             }
           ]
         },
@@ -99,7 +99,7 @@
           "id": "CompanyResponse",
           "type": "action",
           "title": "Company responses",
-          "description": "Add a qna pair",
+          "description": "Suggest new company responses",
           "initialRun": true,
           "fetchTask": true,
           "context": [
@@ -109,7 +109,7 @@
             {
               "name": "companyResponses",
               "title": "companyResponses",
-              "description": "Add a qna pair"
+              "description": "Suggest new company responses"
             }
           ]
         }

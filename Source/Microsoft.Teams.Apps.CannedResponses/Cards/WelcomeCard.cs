@@ -123,7 +123,7 @@ namespace Microsoft.Teams.Apps.CannedResponses
                                 {
                                     new AdaptiveTextBlock
                                     {
-                                        Weight = AdaptiveTextWeight.Bolder,
+                                        Weight = AdaptiveTextWeight.Default,
                                         Spacing = AdaptiveSpacing.None,
                                         Text = localizer.GetString("WelcomeCardTitle"),
                                         Wrap = true,
@@ -152,17 +152,7 @@ namespace Microsoft.Teams.Apps.CannedResponses
                     },
                     new AdaptiveTextBlock
                     {
-                        Text = localizer.GetString("WelcomeCardEditDeletResponseContentText"),
-                        Wrap = true,
-                    },
-                    new AdaptiveTextBlock
-                    {
                         Text = localizer.GetString("WelcomeCardSuggestResponseContentText"),
-                        Wrap = true,
-                    },
-                    new AdaptiveTextBlock
-                    {
-                        Text = localizer.GetString("WelcomeCardCheckRequestContentText"),
                         Wrap = true,
                     },
                 },

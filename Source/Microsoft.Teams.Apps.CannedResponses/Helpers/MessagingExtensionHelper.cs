@@ -184,7 +184,7 @@ namespace Microsoft.Teams.Apps.CannedResponses.Helpers
                     ThumbnailCard previewCard = new ThumbnailCard
                     {
                         Title = companyResponse.ResponseText,
-                        Text = $"{companyResponse.QuestionLabel} | {localizer.GetString("UpdatedByText")} {companyResponse.CreatedBy}",
+                        Text = $"{companyResponse.QuestionLabel} | {companyResponse.CreatedBy}",
                     };
 
                     composeExtensionResult.Attachments.Add(new Attachment

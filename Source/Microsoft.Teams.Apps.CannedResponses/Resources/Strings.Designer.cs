@@ -8,8 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Microsoft.Teams.Apps.CannedResponses {
+namespace Microsoft.Teams.Apps.CannedResponses.Resources {
     using System;
+    
     
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
@@ -402,7 +403,7 @@ namespace Microsoft.Teams.Apps.CannedResponses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to You can suggest maximum 1000 company responses.
+        ///   Looks up a localized string similar to Max limit reached for approved company responses. Please contact your admin to get more details..
         /// </summary>
         public static string MaxCompanyResponseMessage {
             get {
@@ -726,15 +727,6 @@ namespace Microsoft.Teams.Apps.CannedResponses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to by.
-        /// </summary>
-        public static string UpdatedByText {
-            get {
-                return ResourceManager.GetString("UpdatedByText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Hello, I don&apos;t support bot commands..
         /// </summary>
         public static string UserCustomMessage {
@@ -744,7 +736,7 @@ namespace Microsoft.Teams.Apps.CannedResponses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to - Chat with requestor..
+        ///   Looks up a localized string similar to - Chat with requester..
         /// </summary>
         public static string WelcomeCardChatRequestorContentText {
             get {
@@ -753,16 +745,7 @@ namespace Microsoft.Teams.Apps.CannedResponses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to - Check your request status for suggested/proposed responses..
-        /// </summary>
-        public static string WelcomeCardCheckRequestContentText {
-            get {
-                return ResourceManager.GetString("WelcomeCardCheckRequestContentText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Hello, I am my scratchpad, that allows you to manage your quick responses and share within a team or in personal chat..
+        ///   Looks up a localized string similar to Click the small version of my icon near your message formatting options to get started..
         /// </summary>
         public static string WelcomeCardContent {
             get {
@@ -771,7 +754,7 @@ namespace Microsoft.Teams.Apps.CannedResponses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hello, I am my scratchpad, a teammate of yours added me to help in managing the requestes for approval of quick responses..
+        ///   Looks up a localized string similar to Hello, I can assist you in managing user submitted responses..
         /// </summary>
         public static string WelcomeCardContentForAdmin {
             get {
@@ -780,16 +763,7 @@ namespace Microsoft.Teams.Apps.CannedResponses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to - Edit/delete responses from the list..
-        /// </summary>
-        public static string WelcomeCardEditDeletResponseContentText {
-            get {
-                return ResourceManager.GetString("WelcomeCardEditDeletResponseContentText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to - Edit label and question along with requested suggestion..
+        ///   Looks up a localized string similar to - Edit response response before final submission..
         /// </summary>
         public static string WelcomeCardLabelContentText {
             get {
@@ -798,7 +772,7 @@ namespace Microsoft.Teams.Apps.CannedResponses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to - Add new response in your quick response list..
+        ///   Looks up a localized string similar to - Manager your personal responses..
         /// </summary>
         public static string WelcomeCardResponseListContentText {
             get {
@@ -807,7 +781,7 @@ namespace Microsoft.Teams.Apps.CannedResponses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to - Approve/reject new suggested quick response..
+        ///   Looks up a localized string similar to - Suggest new responses to use across company and check your request status..
         /// </summary>
         public static string WelcomeCardSuggestedContentText {
             get {
@@ -834,7 +808,7 @@ namespace Microsoft.Teams.Apps.CannedResponses {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Welcome!.
+        ///   Looks up a localized string similar to Welcome! Hello, I can help you to manage your quick responses to search and share in chat messages..
         /// </summary>
         public static string WelcomeCardTitle {
             get {

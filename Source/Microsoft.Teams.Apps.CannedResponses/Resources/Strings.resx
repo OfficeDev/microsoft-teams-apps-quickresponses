@@ -381,36 +381,24 @@
     <value>Save</value>
     <comment>Update button text in client app.</comment>
   </data>
-  <data name="UpdatedByText" xml:space="preserve">
-    <value>by</value>
-    <comment>Last updated by text to show on messaging extension cards.</comment>
-  </data>
   <data name="WelcomeCardChatRequestorContentText" xml:space="preserve">
-    <value>- Chat with requestor.</value>
+    <value>- Chat with requester.</value>
     <comment>Welcome card content text10.</comment>
   </data>
-  <data name="WelcomeCardCheckRequestContentText" xml:space="preserve">
-    <value>- Check your request status for suggested/proposed responses.</value>
-    <comment>Welcome card content text6.</comment>
-  </data>
   <data name="WelcomeCardContent" xml:space="preserve">
-    <value>Hello, I am my scratchpad, that allows you to manage your quick responses and share within a team or in personal chat.</value>
+    <value>Click the small version of my icon near your message formatting options to get started.</value>
     <comment>Welcome card content text.</comment>
   </data>
-  <data name="WelcomeCardEditDeletResponseContentText" xml:space="preserve">
-    <value>- Edit/delete responses from the list.</value>
-    <comment>Welcome card content text3.</comment>
-  </data>
   <data name="WelcomeCardLabelContentText" xml:space="preserve">
-    <value>- Edit label and question along with requested suggestion.</value>
+    <value>- Edit response response before final submission.</value>
     <comment>Welcome card content text9.</comment>
   </data>
   <data name="WelcomeCardResponseListContentText" xml:space="preserve">
-    <value>- Add new response in your quick response list.</value>
+    <value>- Manager your personal responses.</value>
     <comment>Welcome card content text2.</comment>
   </data>
   <data name="WelcomeCardSuggestedContentText" xml:space="preserve">
-    <value>- Approve/reject new suggested quick response.</value>
+    <value>- Suggest new responses to use across company and check your request status.</value>
     <comment>Welcome card content text7.</comment>
   </data>
   <data name="WelcomeCardSuggestResponseContentText" xml:space="preserve">
@@ -422,7 +410,7 @@
     <comment>Welcome card content text1.</comment>
   </data>
   <data name="WelcomeCardTitle" xml:space="preserve">
-    <value>Welcome!</value>
+    <value>Welcome! Hello, I can help you to manage your quick responses to search and share in chat messages.</value>
     <comment>Welcome card title text.</comment>
   </data>
   <data name="ForbiddenErrorMessage" xml:space="preserve">
@@ -450,7 +438,7 @@
     <comment>Error message when Admin messages in channel.</comment>
   </data>
   <data name="WelcomeCardContentForAdmin" xml:space="preserve">
-    <value>Hello, I am my scratchpad, a teammate of yours added me to help in managing the requestes for approval of quick responses.</value>
+    <value>Hello, I can assist you in managing user submitted responses.</value>
     <comment>Welcome card content text for admin.</comment>
   </data>
   <data name="ApprovedRequestStatusText" xml:space="preserve">
@@ -462,7 +450,7 @@
     <comment>Show status as Rejected for Rejected response request to user.</comment>
   </data>
   <data name="MaxCompanyResponseMessage" xml:space="preserve">
-    <value>You can suggest maximum 1000 company responses</value>
+    <value>Max limit reached for approved company responses. Please contact your admin to get more details.</value>
     <comment>Max responses message to be displayed in client app.</comment>
   </data>
 </root>
