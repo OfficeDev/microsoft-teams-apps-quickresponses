@@ -1,0 +1,126 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.0",
+  "id": "29fa40ad-9846-444f-b0df-eab818d8b70a",
+  "packageName": "com.microsoft.teams.apptemplates.quickresponses",
+  "developer": {
+    "name": "<developer name>",
+    "websiteUrl": "<website url>",
+    "privacyUrl": "<privacy url>",
+    "termsOfUseUrl": "<terms of use url>"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Quick Responses",
+    "full": "Quick Responses Bot"
+  },
+  "description": {
+    "short": "Set up and send quick responses using messaging extension.",
+    "full": "Manage your quick responses and share within a team or in personal chat from messaging extension."
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "<<botId>>",
+      "scopes": [
+        "personal"
+      ],
+      "commandLists": [
+        {
+          "scopes": [
+            "personal"
+          ],
+          "commands": [
+            {
+              "title": "Take a tour",
+              "description": "Take a tour"
+            }
+          ]
+        }
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": true
+    }
+  ],
+  "composeExtensions": [
+    {
+      "botId": "<<botId>>",
+      "canUpdateConfiguration": false,
+      "commands": [
+        {
+          "id": "yourResponses",
+          "title": "Your responses",
+          "description": "Share your quick responses",
+          "initialRun": true,
+          "parameters": [
+            {
+              "name": "searchText",
+              "title": "yourResponses",
+              "description": "Enter a keyword or category"
+            }
+          ]
+        },
+        {
+          "id": "companyResponses",
+          "title": "Company responses",
+          "description": "Share company quick responses",
+          "initialRun": true,
+          "parameters": [
+            {
+              "name": "searchText",
+              "title": "companyResponses",
+              "description": "Enter a keyword or category"
+            }
+          ]
+        },
+        {
+          "id": "YourResponses",
+          "type": "action",
+          "title": "Your responses",
+          "description": "Manage your quick responses",
+          "initialRun": true,
+          "fetchTask": true,
+          "context": [
+            "compose"
+          ],
+          "parameters": [
+            {
+              "name": "yourResponses",
+              "title": "yourResponses",
+              "description": "Manage your quick responses"
+            }
+          ]
+        },
+        {
+          "id": "CompanyResponse",
+          "type": "action",
+          "title": "Company responses",
+          "description": "Suggest new company responses",
+          "initialRun": true,
+          "fetchTask": true,
+          "context": [
+            "compose"
+          ],
+          "parameters": [
+            {
+              "name": "companyResponses",
+              "title": "companyResponses",
+              "description": "Suggest new company responses"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "<<appDomain>>"
+  ]
+}

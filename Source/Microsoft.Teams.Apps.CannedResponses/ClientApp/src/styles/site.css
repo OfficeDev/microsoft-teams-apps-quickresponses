@@ -1,0 +1,167 @@
+﻿
+.loader {
+	width: 100%;
+	margin: 21rem auto;
+}
+
+.user-responses-wrapper-page {
+	margin-left: 3.2rem;
+	margin-top: 1rem;
+	margin-right: 2.4rem;
+}
+
+.commandbar-wrapper {
+	background-color: #fbfbfb;
+	margin-top: 0.7rem;
+	padding: 4px 2px 4px 2px;
+}
+
+.add-new-button {
+	min-width: 105px !important;
+	margin: 0;
+	padding-left: 0 !important;
+}
+
+.edit-button {
+	margin: 0;
+	min-width: 73px !important;
+	padding-left: 0 !important;
+}
+
+.delete-button {
+	margin: 0;
+	min-width: 90px !important;
+	padding-left: 0 !important;
+}
+
+.search-input-container {
+	margin-left: 98px;
+	width: 374px;
+}
+
+.search-input-container-company-responses {
+	margin-left: 230px;
+	width: 374px;
+}
+
+.search-input-container-company-responses-withoutBtn {
+	margin-left: 349px;
+	width: 374px;
+}
+
+.add-user-responses-page {
+	margin-left: 3.2rem;
+	margin-top: 1rem;
+	margin-right: 2.4rem;
+}
+
+.add-form-container {
+	margin-right: 26rem;
+	margin-top: 2.5rem;
+}
+
+.add-form-input {
+	margin-top: 0.5rem;
+	margin-bottom: 2.2rem;
+}
+
+.add-form-button-container {
+	position: fixed;
+	width: 95%;
+	left: 1.2rem;
+	bottom: 4rem;
+}
+
+.response-text-area {
+	height: 9rem !important;
+}
+
+.max-error-message {
+	margin-left: 2.3rem;
+	margin-top: 1rem;
+}
+
+.form-label {
+	display: flex;
+}
+
+.field-error-message {
+	float: right;
+}
+
+.result-message-container {
+	align-content: center;
+	text-align: center;
+	width: 100vw;
+	margin-top: 20rem;
+}
+
+.result-message-icon {
+	align-content: center;
+	text-align: center;
+	margin-bottom: 0.5rem;
+}
+
+.result-success-message-text {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.result-error-message-text {
+	font-size: 1.5rem;
+	margin-left: 3.2rem;
+	font-weight: 600;
+}
+
+.response-message-text {
+	font-size: 1.6rem !important;
+}
+
+.result-message-icon svg {
+	width: 2.2rem;
+	height: 2.2rem;
+}
+
+.questions-field-info-message {
+	float:right;
+}
+
+.error-message {
+	text-align: center;
+	width: 80%;
+	height: 10rem;
+	position: absolute;
+	top: 4rem;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	font-size: 1.5rem;
+}
+
+.menu{ 
+	border-bottom: 0rem;
+	margin-bottom: 1rem;
+	margin-top: 0.5rem 
+}
+
+.response-message-icon{ 
+	height: 2rem; 
+	width: 2rem 
+}
+
+.table-checkbox-cell {
+    max-width: 3rem;
+}
+
+.table-label-cell{
+	max-width:10rem;
+}
+
+.darkContainer .commandbar-wrapper {
+	background-color: black;
+}
+
+.highContrastContainer .commandbar-wrapper {
+	background-color: black;
+}

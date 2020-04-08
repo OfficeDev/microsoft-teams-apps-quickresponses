@@ -3,51 +3,46 @@ page_type: sample
 languages:
 - csharp
 products:
-- dotnet
-description: "Add 150 character max description"
-urlFragment: "update-this-to-unique-url-stub"
+- office-teams
+description: Set up and send quick responses for frequent queries and discussions.
+urlFragment: microsoft-teams-apps-quickresponses
 ---
 
-# Official Microsoft Sample
+| [Documentation](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Home) | [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Deployment-Guide) | [Architecture](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Solution-Overview) |
+| ---- | ---- | ---- |
 
-<!-- 
-Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master
+In fields such as technical support, quick responses to frequently asked questions is an effective solution for both the customer and technical professionals, as it offers the possibility of providing a quick answer to common questions while requiring little human intervention. 
+ 
+In addition, sales representatives or technical support professionals send same or similar responses to questions asked by customers and users. However, time spent drafting these are not the best use of their time. Increase productivity and cut back on the amount of time spent writing and collating these responses by using Quick Responses app in Microsoft Teams.
+ 
+Using the Quick Responses app in Microsoft Teams, users can build their library of quick responses and use the Messaging Extension to search and insert the quick response in compose box saving time and effort. In addition, they can add a response to their existing list of saved responses using an existing chat conversation invoking the app through a Message Action. Users can also tap into a centrally published library of quick responses to stay current & accurate. 
 
-Guidance on onboarding samples to docs.microsoft.com/samples: https://review.docs.microsoft.com/help/onboard/admin/samples/process/onboarding?branch=master
+![Quick responses messaging extension search](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Images/MessagingExtension.png)
 
-Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master
--->
+![Quick responses your search task module](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Images/YourResponsesTaskModule.png)
 
-Give a short description for your sample here. What does it do and why is it important?
+## Legal Notice
+Please read the license terms applicable to this app template [here](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/blob/master/LICENSE). In addition to these terms, by using this app template you agree to the following:
 
-## Contents
+* You are responsible for complying with applicable privacy and security regulations related to use, collection and handling of any personal data by your app.  This includes complying with all internal privacy and security policies of your organization if your app is developed to be sideloaded internally within your organization.
 
-Outline the file contents of the repository. It helps users navigate the codebase, build configuration and any related assets.
+* Microsoft will have no access to data collected through your app.  Microsoft will not be responsible for any data related incidents or data subject requests.
 
-| File/folder       | Description                                |
-|-------------------|--------------------------------------------|
-| `src`             | Sample source code.                        |
-| `.gitignore`      | Define what to ignore at commit time.      |
-| `CHANGELOG.md`    | List of changes to the sample.             |
-| `CONTRIBUTING.md` | Guidelines for contributing to the sample. |
-| `README.md`       | This README file.                          |
-| `LICENSE`         | The license for the sample.                |
+* Any trademarks or registered trademarks of Microsoft in the United States and/or other countries and logos included in this repository are the property of Microsoft, and the license for this project does not grant you rights to use any Microsoft names, logos or trademarks outside of this repository.  Microsoft’s general trademark guidelines can be found [here](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general.aspx)
 
-## Prerequisites
+* Use of this template does not guarantee acceptance of your app to the Teams app store.  To make this app available in the Teams app store, you will have to comply with [submission process and validation](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/publish), and all associated requirements such as including your own privacy statement and terms of use for your app. 
 
-Outline the required components and tools that a user might need to have on their machine in order to run the sample. This can be anything from frameworks, SDKs, OS versions or IDE releases.
+## Getting started
 
-## Setup
+Begin with the [Solution overview](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Solution-overview) to read about what the app does and how it works.
 
-Explain how to prepare the sample once the user clones or downloads the repository. The section should outline every step necessary to install dependencies and set up any settings (for example, API keys and output folders).
+When you're ready to try out Quick Responses, or to use it in your own organization, follow the steps in the [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/DeployementGuide).
 
-## Running the sample
+## Feedback
 
-Outline step-by-step instructions to execute the sample and see its output. Include steps for executing the sample from the IDE, starting specific services in the Azure portal or anything related to the overall launch of the code.
+Thoughts? Questions? Ideas? Share them with us on [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)!
 
-## Key concepts
-
-Provide users with more context on the tools and services used in the sample. Explain some of the code that is being used and how services interact with each other.
+Please report bugs and other code issues [here](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/issues/new)
 
 ## Contributing
 
