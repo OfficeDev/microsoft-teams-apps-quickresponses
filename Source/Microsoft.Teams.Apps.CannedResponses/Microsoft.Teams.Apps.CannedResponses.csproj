@@ -64,6 +64,7 @@
     <EmbeddedResource Update="Resources\Strings.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Microsoft.Teams.Apps.CannedResponses</CustomToolNamespace>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
