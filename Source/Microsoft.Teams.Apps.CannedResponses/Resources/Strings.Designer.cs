@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Microsoft.Teams.Apps.CannedResponses.Resources {
+namespace Microsoft.Teams.Apps.CannedResponses {
     using System;
     
     

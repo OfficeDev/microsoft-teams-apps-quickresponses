@@ -54,6 +54,9 @@
     <AdditionalFiles Include="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), .gitignore))\Build\stylecop.json" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="wwwroot\Artifacts\appLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Update="Resources\Strings.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -64,10 +67,8 @@
     <EmbeddedResource Update="Resources\Strings.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Microsoft.Teams.Apps.CannedResponses</CustomToolNamespace>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="wwwroot\" />
   </ItemGroup>
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->
