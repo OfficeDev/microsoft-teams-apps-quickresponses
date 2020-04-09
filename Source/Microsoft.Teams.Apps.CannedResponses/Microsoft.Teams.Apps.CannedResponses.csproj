@@ -36,9 +36,7 @@
   </ItemGroup>
   <ItemGroup>
     <!-- Don't publish the SPA source files, but do show them in the project files list -->
-    <Compile Remove="wwwroot\**" />
     <Content Remove="$(SpaRoot)**" />
-    <Content Remove="wwwroot\**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
     </ItemGroup>
   <PropertyGroup>
@@ -46,15 +44,7 @@
     <DocumentationFile>bin\$(Configuration)\$(Platform)\$(AssemblyName).xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <EmbeddedResource Remove="wwwroot\**" />
-    <None Remove="wwwroot\**" />
-
-  </ItemGroup>
-  <ItemGroup>
     <AdditionalFiles Include="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), .gitignore))\Build\stylecop.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\Artifacts\appLogo.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Resources\Strings.Designer.cs">
