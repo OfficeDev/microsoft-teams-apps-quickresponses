@@ -11,7 +11,7 @@ urlFragment: microsoft-teams-apps-quickresponses
 | [Documentation](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Home) | [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Deployment-Guide) | [Architecture](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Solution-Overview) |
 | ---- | ---- | ---- |
 
-## Quick Responses app
+# Quick Responses App Template
 
 In fields such as technical support, quick responses to frequently asked questions is an effective solution for both the customer and technical professionals, as it offers the possibility of providing a quick answer to common questions while requiring little human intervention. 
  
