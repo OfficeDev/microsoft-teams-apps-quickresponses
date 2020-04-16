@@ -23,7 +23,7 @@ Using the Quick Responses app in Microsoft Teams, users can build their library 
 
 ![Quick responses your search task module](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/wiki/Images/YourResponsesTaskModule.png)
 
-## Legal Notice
+## Legal notice
 Please read the license terms applicable to this app template [here](https://github.com/OfficeDev/microsoft-teams-apps-quickresponses/blob/master/LICENSE). In addition to these terms, by using this app template you agree to the following:
 
 * You are responsible for complying with applicable privacy and security regulations related to use, collection and handling of any personal data by your app.  This includes complying with all internal privacy and security policies of your organization if your app is developed to be sideloaded internally within your organization.
