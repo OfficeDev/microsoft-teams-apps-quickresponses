@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "name.short": "מנהל מערכת של תגובות מהירות",
+  "name.full": "בוט מנהל מערכת לתגובות מהירות",
+  "description.short": "בוט מנהל מערכת של תגובה מהירה כדי לסייע לך בניהול תגובות שנשלחו על-ידי משתמשים.",
+  "description.full": "ניהול תגובות חברה נשלחו על-ידי המשתמש ושינוי קטגוריית תגובה מהירה, תווית וטקסט תגובה לפני שליחה סופית.",
+  "bots[0].commandLists[0].commands[0].title": "צא לסיור",
+  "bots[0].commandLists[0].commands[0].description": "צא לסיור"
+}

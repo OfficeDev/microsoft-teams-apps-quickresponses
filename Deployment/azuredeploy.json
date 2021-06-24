@@ -57,7 +57,7 @@
         "description": "The ID of the tenant to which the app will be deployed."
       }
     },
-	"teamIdDeepLink": {
+    "teamIdDeepLink": {
       "type": "string",
       "metadata": {
         "description": "Microsoft Teams team URL."
@@ -71,13 +71,23 @@
         "description": "A secret used to further encrypt stored tokens at rest."
       }
     },
-	"defaultCulture": {
+    "defaultCulture": {
       "type": "string",
       "allowedValues": [
-        "en-US",
-		"fr-Fr"
+        "en",
+        "ar",
+        "de",
+        "es",
+        "fr",
+        "he",
+        "ja",
+        "ko",
+        "pt-BR",
+        "ru",
+        "zh-CN",
+        "zh-TW"
       ],
-      "defaultValue": "en-US",
+      "defaultValue": "en",
       "metadata": {
         "description": "Default localization for app."
       }
@@ -113,7 +123,7 @@
         "description": "Location for all resources."
       }
     },
-	"searchServiceSku": {
+    "searchServiceSku": {
       "type": "string",
       "allowedValues": [
         "F (3 indexes)",
@@ -148,12 +158,12 @@
     "hostingPlanName": "[parameters('baseResourceName')]",
     "storageAccountName": "[variables('uniqueString')]",
     "botAppInsightsName": "[parameters('baseResourceName')]",
-	"azureSearchName": "[concat('search-', variables('uniqueString'))]",
+    "azureSearchName": "[concat('search-', variables('uniqueString'))]",
     "azureSearchSkus": {
       "F ": "free",
       "B ": "basic"
     },
-	"azureSearchSkuValue": "[variables('azureSearchSkus')[toUpper(substring(parameters('searchServiceSku'), 0, 2))]]",
+    "azureSearchSkuValue": "[variables('azureSearchSkus')[toUpper(substring(parameters('searchServiceSku'), 0, 2))]]",
     "isSharedPlan": "[contains(variables('azureSearchSkus'), parameters('sku'))]",
     "skuFamily": "[if(equals(parameters('sku'), 'Shared'), 'D', take(parameters('sku'), 1))]"
   },
@@ -234,35 +244,35 @@
               "name": "App:TenantId",
               "value": "[parameters('tenantId')]"
             },
-			{
+            {
               "name": "Teams:TeamIdDeepLink",
               "value": "[parameters('teamIdDeepLink')]"
             },
-			{
+            {
               "name": "Logging:LogLevel:Default",
               "value": "Information"
             },
-			{
+            {
               "name": "i18n:DefaultCulture",
               "value": "[parameters('defaultCulture')]"
             },
-			{
+            {
               "name": "i18n:SupportedCultures",
-              "value": "en-US,fr-Fr"
+              "value": "en,fr,es,ja,ar,de,he,ko,pt-BR,ru,zh-CN,zh-TW"
             },
             {
               "name": "ApplicationInsights:InstrumentationKey",
               "value": "[reference(resourceId('Microsoft.Insights/components/', variables('botAppInsightsName')), '2015-05-01').InstrumentationKey]"
             },
-			{
+            {
               "name": "ApplicationInsights:InstrumentationKey:LogLevel:Default",
               "value": "Information"
             },
-			{
+            {
               "name": "ApplicationInsights:InstrumentationKey:LogLevel:Microsoft",
               "value": "Information"
             },
-			{
+            {
               "name": "SearchService:SearchServiceName",
               "value": "[variables('azureSearchName')]"
             },
@@ -274,7 +284,7 @@
               "name": "SearchService:SearchServiceQueryApiKey",
               "value": "[listQueryKeys(resourceId('Microsoft.Search/searchServices/', variables('azureSearchName')), '2015-08-19').value[0].key]"
             },
-			{
+            {
               "name": "SearchService:SearchIndexingIntervalInMinutes",
               "value": "10"
             },
@@ -282,11 +292,11 @@
               "name": "App:SecurityKey",
               "value": "[parameters('tokenEncryptionKey')]"
             },
-			{
+            {
               "name": "UppercaseResponse",
               "value": false
             },
-			{
+            {
               "name": "AllowedHosts",
               "value": "*"
             },
@@ -297,7 +307,7 @@
           ]
         }
       },
-	  "dependsOn": [
+      "dependsOn": [
         "[resourceId('Microsoft.Web/serverfarms', variables('hostingPlanName'))]",
         "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName'))]",
         "[resourceId('Microsoft.Search/searchServices/', variables('azureSearchName'))]",
@@ -371,13 +381,13 @@
           ]
         }
       ],
-	  
+
       "sku": {
         "name": "F0"
       },
       "type": "Microsoft.BotService/botServices"
     },
-	{
+    {
       "name": "[variables('azureSearchName')]",
       "type": "Microsoft.Search/searchServices",
       "apiVersion": "2015-08-19",

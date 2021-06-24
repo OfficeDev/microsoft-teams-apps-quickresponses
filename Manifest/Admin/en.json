@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "name.short": "Quick Responses Admin",
+  "name.full": "Quick Responses Admin Bot",
+  "description.short": "Quick Response admin bot to assist you in managing user submitted responses.",
+  "description.full": "Managed user submitted company responses and modify quick response category, label and response text before final submission.",
+  "bots[0].commandLists[0].commands[0].title": "Take a tour",
+  "bots[0].commandLists[0].commands[0].description": "Take a tour"
+}

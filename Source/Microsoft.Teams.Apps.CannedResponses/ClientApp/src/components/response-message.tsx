@@ -3,8 +3,13 @@
 // </copyright>
 
 import * as React from "react";
+import { useState, useEffect} from "react";
 import { Icon, Text, Button } from "@fluentui/react";
+import * as microsoftTeams from "@microsoft/teams-js";
+import { createBrowserHistory } from "history";
 import "../styles/site.css";
+import { getApplicationInsightsInstance } from "../helpers/app-insights";
+import { getResourceStringsFromApi } from "../helpers/resource-data";
 
 const ResponseMessage: React.FunctionComponent<{}> = props => {
 	let search = window.location.search;
@@ -16,6 +21,31 @@ const ResponseMessage: React.FunctionComponent<{}> = props => {
 	let messageText = params.get("message");
 	let token = params.get("token");
 	let isCompanyResponse = params.get("isCompanyResponse");
+	const browserHistory = createBrowserHistory({ basename: "" });
+	let appInsights;
+	let userObjectId;
+	let data;
+	const [backButtonText, setBackButtonText] = useState("");
+
+	useEffect(() => {
+		microsoftTeams.initialize();
+		microsoftTeams.getContext(async (context) => {
+			userObjectId = context.userObjectId;
+			locale = context.locale;
+			appInsights = getApplicationInsightsInstance(telemetry, browserHistory);
+			getResourceStrings();
+		});
+	}, []);
+
+	/**
+    *Get localized resource strings from API
+    */
+	async function getResourceStrings(){
+		data = await getResourceStringsFromApi(appInsights, userObjectId, token, locale);
+		if (data) {
+			setBackButtonText(data.backButtonText);
+		}
+	}
 
 	/**
 	*Sets icons according to add and update request's response status
@@ -70,7 +100,7 @@ const ResponseMessage: React.FunctionComponent<{}> = props => {
 			</div>
 			<div className="add-form-button-container">
 				<div>
-					<Button icon="icon-chevron-start" content="Back" text onClick={() => {onBackButtonClick() }} />
+					<Button icon="icon-chevron-start" content={backButtonText} text onClick={() => { onBackButtonClick() }} />
 				</div>
 			</div>
 		</div>

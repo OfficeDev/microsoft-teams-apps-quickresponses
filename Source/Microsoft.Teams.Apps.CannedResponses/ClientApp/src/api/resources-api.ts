@@ -20,9 +20,10 @@ export const getResourceStrings = async (token: any, locale?: string | null): Pr
 /**
 * Get error resource data from API
 * @param  {String | Null} token Custom jwt token
+* @param  {String | Null} locale Current user selected application locale
 */
-export const getErrorResourceStrings = async (token: any): Promise<any> => {
+export const getErrorResourceStrings = async (token: any, locale?: string | null): Promise<any> => {
 
 	let url = baseAxiosUrl + "/api/Resource/ErrorResourceStrings";
-	return await axios.get(url, token);
+	return await axios.get(url, token, locale);
 }

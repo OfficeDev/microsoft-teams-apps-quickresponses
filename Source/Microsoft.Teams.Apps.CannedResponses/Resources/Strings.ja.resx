@@ -118,91 +118,91 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddButtonText" xml:space="preserve">
-    <value>Save</value>
+    <value>保存</value>
     <comment>Add button text in client app.</comment>
   </data>
   <data name="AddNewButtonText" xml:space="preserve">
-    <value>Add new</value>
+    <value>新規追加</value>
     <comment>Add new button text for client app.</comment>
   </data>
   <data name="AddNewSuggestionFailedMessage" xml:space="preserve">
-    <value>Something went wrong. Make your suggestion again.</value>
+    <value>問題が発生しました。もう一度提案してください。</value>
     <comment>Error message when failed to suggest a new request to company KB.</comment>
   </data>
   <data name="AddNewSuggestionSuccessMessage" xml:space="preserve">
-    <value>Suggestion added!</value>
+    <value>提案が追加されました</value>
     <comment>Success message on successfully adding new suggestion in company responses.</comment>
   </data>
   <data name="AddUserResponseFailedMessage" xml:space="preserve">
-    <value>Something went wrong. Try adding a response again.</value>
+    <value>問題が発生しました。もう一度回答を追加してください。</value>
     <comment>Error message shown if a new response is not added for some reason.</comment>
   </data>
   <data name="AddUserResponseSuccessMessage" xml:space="preserve">
-    <value>Added successfully!</value>
+    <value>正常に追加されました。</value>
     <comment>Success message on successfully adding user response in my responses.</comment>
   </data>
   <data name="ApproveButtonTitle" xml:space="preserve">
-    <value>Approve</value>
+    <value>承認</value>
     <comment>Approve button title text in new suggested response notification card in SME team.</comment>
   </data>
   <data name="ApprovedAdminCardLabelText" xml:space="preserve">
-    <value>Approved: {0} by {1}</value>
+    <value>{1} さんが {0} を承認</value>
     <comment>Show datetime and approver name for approved request on refreshed card.</comment>
   </data>
   <data name="ApprovedCardLabelText" xml:space="preserve">
-    <value>Approved: {0}</value>
+    <value>承認済み: {0}</value>
     <comment>Show datetime for approved request.</comment>
   </data>
   <data name="ApprovedRequestRefreshCardTitle" xml:space="preserve">
-    <value>**Request approved**</value>
+    <value>「リクエストが承認されました」</value>
     <comment>Show the title after request has approved on refreshed card.</comment>
   </data>
   <data name="ApproveToggleCardLabelPlaceholder" xml:space="preserve">
-    <value>Type category</value>
+    <value>種類のカテゴリ</value>
     <comment>Approve toggle card label placeholder text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardCategoryTitle" xml:space="preserve">
-    <value>Category</value>
+    <value>カテゴリ</value>
     <comment>Approve toggle card category title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardQuestionsPlaceholder" xml:space="preserve">
-    <value>Type questions separated by semicolons (;)</value>
+    <value>質問をセミコロン (;) で区切って入力してください</value>
     <comment>Approve toggle card questions placeholder text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardQuestionsTitle" xml:space="preserve">
-    <value>Question(s)</value>
+    <value>質問</value>
     <comment>Approve toggle card questions title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardResponsePlaceholder" xml:space="preserve">
-    <value>Type response</value>
+    <value>タイプ応答</value>
     <comment>Approve toggle card response placeholder text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardResponseTitle" xml:space="preserve">
-    <value>Response</value>
+    <value>回答</value>
     <comment>Approve toggle card response title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardSubmitButtonTitle" xml:space="preserve">
-    <value>Submit</value>
+    <value>送信</value>
     <comment>Approve toggle card submit button title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="BackButtonText" xml:space="preserve">
-    <value>Back</value>
+    <value>戻る</value>
     <comment>Back button text used in client app.</comment>
   </data>
   <data name="CancelButtonText" xml:space="preserve">
-    <value>Cancel</value>
+    <value>キャンセル</value>
     <comment>Cancel button text to be displayed in client app.</comment>
   </data>
   <data name="ChatTextButton" xml:space="preserve">
-    <value>Chat with {0}</value>
+    <value>{0}とのチャット</value>
     <comment>Ability to chat directly with end user from SME channel.</comment>
   </data>
   <data name="CompanyResponsesMenuText" xml:space="preserve">
-    <value>Company responses</value>
+    <value>会社の応答</value>
     <comment>Company responses menu text in client app.</comment>
   </data>
   <data name="ConfirmButtonText" xml:space="preserve">
-    <value>Confirm</value>
+    <value>確認</value>
     <comment>Confirm button text to be displayed in client app.</comment>
   </data>
   <data name="DateFormat" xml:space="preserve">
@@ -210,251 +210,251 @@
     <comment>Used in date string format for adaptive card. {0} is for date and {1} is for time.</comment>
   </data>
   <data name="DeleteButtonText" xml:space="preserve">
-    <value>Delete</value>
+    <value>削除</value>
     <comment>Delete button text in client app.</comment>
   </data>
   <data name="DialogConfirmHeader" xml:space="preserve">
-    <value>Action confirmation</value>
+    <value>アクションの確認</value>
     <comment>Header for action confirmation for dialog in client app.</comment>
   </data>
   <data name="DialogConfirmText" xml:space="preserve">
-    <value>Are you sure you want to confirm this action?</value>
+    <value>この操作を確認してよろしいですか?</value>
     <comment>Message to be displayed when user submits an action through dialog in client app.</comment>
   </data>
   <data name="EditButtonText" xml:space="preserve">
-    <value>Edit</value>
+    <value>編集</value>
     <comment>Edit button text for client app.</comment>
   </data>
   <data name="EditUserResponseFailedMessage" xml:space="preserve">
-    <value>Something went wrong. Try updating again.</value>
+    <value>問題が発生しました。更新をお試しください。</value>
     <comment>Error message when editing an entry failed.</comment>
   </data>
   <data name="EditUserResponseSuccessMessage" xml:space="preserve">
-    <value>Update saved!</value>
+    <value>更新が保存されました。</value>
     <comment>Success message when editing an entry successfully.</comment>
   </data>
   <data name="ErrorMessage" xml:space="preserve">
-    <value>Something went wrong. Try again in a few minutes.</value>
+    <value> 問題が 発生 しました。数分後にもう一度お試しください。</value>
     <comment>Error message when bot throws exception or unable to perform a task (Generic error message).</comment>
   </data>
   <data name="ErrorMessageOnApprove" xml:space="preserve">
-    <value>Category, question and response fields are mandatory to approve the response.</value>
+    <value>回答を承認するには、カテゴリ、質問、および応答フィールドが必須です。</value>
     <comment>Show error message while approving the suggested response if any field is empty.</comment>
   </data>
   <data name="FieldRequiredMessage" xml:space="preserve">
-    <value>This field is required</value>
+    <value>この 項目 は 必須です</value>
     <comment>Error message when user did not fill all the mandatory field in client app.</comment>
   </data>
   <data name="Label" xml:space="preserve">
-    <value>Category</value>
+    <value>カテゴリ</value>
     <comment>Label text used in form for client app.</comment>
   </data>
   <data name="ManageYourResponsesTitleText" xml:space="preserve">
-    <value>Manage your responses</value>
+    <value>応答を管理する</value>
     <comment>Manage your responses subtitle text shown below the bot name when my responses or company responses task module opens.</comment>
   </data>
   <data name="MaxResponsesMessage" xml:space="preserve">
-    <value>You can create maximum 200 user responses</value>
+    <value>最大 200 のユーザー応答を作成できます</value>
     <comment>Max responses message to be displayed in client app.</comment>
   </data>
   <data name="MyResponsesText" xml:space="preserve">
-    <value>Your responses</value>
+    <value>あなたの回答</value>
     <comment>My responses text to be displayed in client app.</comment>
   </data>
   <data name="NotificationCardApprovedOrRejectedTitle" xml:space="preserve">
-    <value>**Thanks for suggesting a company response.**</value>
+    <value>**会社の対応を提案していただき、ありがとうございます。**</value>
     <comment>Show approved title for approved response request to user.</comment>
   </data>
   <data name="NotificationCardLabelText" xml:space="preserve">
-    <value>**Category:**</value>
+    <value>**カテゴリ。**</value>
     <comment>Notification card label text.</comment>
   </data>
   <data name="NotificationCardQuestion" xml:space="preserve">
-    <value>**Question:**</value>
+    <value>**質問:**</value>
     <comment>Notification card question.</comment>
   </data>
   <data name="NotificationCardRemark" xml:space="preserve">
-    <value>**Comment**</value>
+    <value>**コメント**</value>
     <comment>Notification card remark.</comment>
   </data>
   <data name="NotificationCardRequestReject" xml:space="preserve">
-    <value>**Request  rejected**</value>
+    <value>**リクエストは拒否されました**</value>
     <comment>Notification card request rejected.</comment>
   </data>
   <data name="NotificationCardRequestText" xml:space="preserve">
-    <value>Suggested by {0}</value>
+    <value>{0} による提案</value>
     <comment>Notification card request reject text.</comment>
   </data>
   <data name="NotificationCardResponse" xml:space="preserve">
-    <value>**Response:**</value>
+    <value>**応答:**</value>
     <comment>Notification card response.</comment>
   </data>
   <data name="NotificationCardStatusText" xml:space="preserve">
-    <value>Status: {0}</value>
+    <value>状態: {0}</value>
     <comment>Notification card status text.</comment>
   </data>
   <data name="NotificationRequestCardContentText" xml:space="preserve">
-    <value>**New! Company response for approval**</value>
+    <value>**新着! 承認のための会社の対応**</value>
     <comment>Notification request card content text.</comment>
   </data>
   <data name="Question" xml:space="preserve">
-    <value>Question</value>
+    <value>質問</value>
     <comment>Question text for client app.</comment>
   </data>
   <data name="Questions" xml:space="preserve">
-    <value>Question(s)</value>
+    <value>質問</value>
     <comment>Questions title text used in form for client app.</comment>
   </data>
   <data name="RefreshedNotificationCardRequestText" xml:space="preserve">
-    <value>Suggested by {0}</value>
+    <value>{0} による提案</value>
     <comment>Notification card request text after approval or rejection.</comment>
   </data>
   <data name="RejectButtonTitle" xml:space="preserve">
-    <value>Reject</value>
+    <value>拒否</value>
     <comment>Reject button title text in new suggested response notification card in SME team.</comment>
   </data>
   <data name="RejectedAdminCardLabelText" xml:space="preserve">
-    <value>Rejected: {0} by {1}</value>
+    <value>{1} さんが {0} を拒否</value>
     <comment>Show datetime and rejector name for rejected request on refreshed card.</comment>
   </data>
   <data name="RejectedCardLabelText" xml:space="preserve">
-    <value>Rejected: {0}</value>
+    <value>拒否されました: {0}</value>
     <comment>Show datetime for rejected request.</comment>
   </data>
   <data name="RejectToggleCardRemarkPlaceholder" xml:space="preserve">
-    <value>Explain why this was rejected (optional)</value>
+    <value>これが拒否された理由を説明してください (オプション)</value>
     <comment>Reject toggle card remark placeholder text in suggested response notification card in SME team.</comment>
   </data>
   <data name="RejectToggleCardRemarkTitle" xml:space="preserve">
-    <value>Comment</value>
+    <value>コメント</value>
     <comment>Reject toggle card remark title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="RejectToggleCardSubmitButtonTitle" xml:space="preserve">
-    <value>Submit</value>
+    <value>送信</value>
     <comment>Reject toggle card submit button title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="RequestedOnText" xml:space="preserve">
-    <value>Requested on</value>
+    <value>要求日</value>
     <comment>Requested on text in client app.</comment>
   </data>
   <data name="RequestsMenuText" xml:space="preserve">
-    <value>Requests</value>
+    <value>リクエスト</value>
     <comment>Requests menu text in client app.</comment>
   </data>
   <data name="Response" xml:space="preserve">
-    <value>Response</value>
+    <value>回答</value>
     <comment>Response text used in form for client app.</comment>
   </data>
   <data name="SearchPlaceholder" xml:space="preserve">
-    <value>Search...</value>
+    <value>検索...</value>
     <comment>Search input placeholder in client app.</comment>
   </data>
   <data name="StatusText" xml:space="preserve">
-    <value>Status</value>
+    <value>状態</value>
     <comment>Status text in client app.</comment>
   </data>
   <data name="SuggestButtonText" xml:space="preserve">
-    <value>Suggest</value>
+    <value>提案</value>
     <comment>Suggest button text used in client app.</comment>
   </data>
   <data name="SuggestNewButtonText" xml:space="preserve">
-    <value>Suggest new</value>
+    <value>新しい提案</value>
     <comment>Suggest new button text used in client app.</comment>
   </data>
   <data name="TypeCategoryPlaceholder" xml:space="preserve">
-    <value>Type category</value>
+    <value>種類のカテゴリ</value>
     <comment>Placeholder for category text input used in form for client app.</comment>
   </data>
   <data name="TypeQuestionPlaceholder" xml:space="preserve">
-    <value>Type questions separated by semicolons (;)</value>
+    <value>質問をセミコロン (;) で区切って入力してください</value>
     <comment>Placeholder for question text input used in form for client app.</comment>
   </data>
   <data name="TypeResponsePlaceholder" xml:space="preserve">
-    <value>Type response</value>
+    <value>タイプ応答</value>
     <comment>Placeholder for response text input used in form for client app.</comment>
   </data>
   <data name="UpdateAndShareButtonText" xml:space="preserve">
-    <value>Send update</value>
+    <value>更新内容を送信</value>
     <comment>Update and share button text in client app.</comment>
   </data>
   <data name="UpdateButtonText" xml:space="preserve">
-    <value>Save</value>
+    <value>保存</value>
     <comment>Update button text in client app.</comment>
   </data>
   <data name="WelcomeCardChatRequestorContentText" xml:space="preserve">
-    <value>- Chat with requester.</value>
+    <value>- 依頼者とチャットします。</value>
     <comment>Welcome card content text10.</comment>
   </data>
   <data name="WelcomeCardContent" xml:space="preserve">
-    <value>Click the small version of my icon near your message formatting options to get started.</value>
+    <value>開始するには、メッセージ形式オプションの近くにある小さなバージョンのアイコンをクリックしてください。</value>
     <comment>Welcome card content text.</comment>
   </data>
   <data name="WelcomeCardLabelContentText" xml:space="preserve">
-    <value>- Edit response response before final submission.</value>
+    <value>-- 最終的な提出の前に応答を編集します。</value>
     <comment>Welcome card content text9.</comment>
   </data>
   <data name="WelcomeCardResponseListContentText" xml:space="preserve">
-    <value>- Manager your personal responses.</value>
+    <value>- 個人用の返信を管理します。</value>
     <comment>Welcome card content text2.</comment>
   </data>
   <data name="WelcomeCardSuggestedContentText" xml:space="preserve">
-    <value>- Suggest new responses to use across company and check your request status.</value>
+    <value>-会社全体で使用する新しい回答を提案し、要求のステータスを確認します。</value>
     <comment>Welcome card content text7.</comment>
   </data>
   <data name="WelcomeCardSuggestResponseContentText" xml:space="preserve">
-    <value>- Suggest new response to add in company responses.</value>
+    <value>- 会社の回答を追加するための新しい回答を提案します。</value>
     <comment>Welcome card content text4.</comment>
   </data>
   <data name="WelcomeCardThingsContentText" xml:space="preserve">
-    <value>Here are some of the things that I can do:</value>
+    <value>こんなことが出来ます:</value>
     <comment>Welcome card content text1.</comment>
   </data>
   <data name="WelcomeCardTitle" xml:space="preserve">
-    <value>Welcome! Hello, I can help you to manage your quick responses to search and share in chat messages.</value>
+    <value>ようこそ！ こんにちは。チャット メッセージを検索して共有するためのクイック応答を管理するお手伝いをします。</value>
     <comment>Welcome card title text.</comment>
   </data>
   <data name="ForbiddenErrorMessage" xml:space="preserve">
-    <value>You cannot access this page. Contact your IT admin for permission.</value>
+    <value>このページにアクセスすることはできません。アクセス許可については、IT 管理者にお問い合わせください。</value>
     <comment>Forbidden http status code.</comment>
   </data>
   <data name="GeneralErrorMessage" xml:space="preserve">
-    <value>Something went wrong. Try again in a few minutes.</value>
+    <value> 問題が 発生 しました。数分後にもう一度お試しください。</value>
     <comment>General error message to be shown in client app.</comment>
   </data>
   <data name="RefreshLinkText" xml:space="preserve">
-    <value>Refresh</value>
+    <value>最新の情報に更新</value>
     <comment>Refresh link text for error page in client app.</comment>
   </data>
   <data name="UnauthorizedErrorMessage" xml:space="preserve">
-    <value>Something went wrong. Try again in a few minutes.</value>
+    <value> 問題が 発生 しました。数分後にもう一度お試しください。</value>
     <comment>Http status code 404</comment>
   </data>
   <data name="UserCustomMessage" xml:space="preserve">
-    <value>Hello, I don't support bot commands.</value>
+    <value>こんにちは、ボット コマンドはサポートされてていません。</value>
     <comment>When user asks bot a questions- a message appears saying that bot command is not supported in personal scope.</comment>
   </data>
   <data name="ErrorWhenMessageInChannel" xml:space="preserve">
-    <value>App does not support any bot commands, please use messaging extension for better results.</value>
+    <value>アプリはボット コマンドをサポートしていません。より良い結果を得るには、メッセージング拡張機能を使用してください。</value>
     <comment>Error message when Admin messages in channel.</comment>
   </data>
   <data name="WelcomeCardContentForAdmin" xml:space="preserve">
-    <value>Hello, I can assist you in managing user submitted responses.</value>
+    <value>こんにちは、ユーザーから送信された応答の管理をお手伝いします。</value>
     <comment>Welcome card content text for admin.</comment>
   </data>
   <data name="ApprovedRequestStatusText" xml:space="preserve">
-    <value>Approved</value>
+    <value>承認済み</value>
     <comment>Show status as approved for approved response request to user.</comment>
   </data>
   <data name="RejectedRequestStatusText" xml:space="preserve">
-    <value>Rejected</value>
+    <value>拒否済み</value>
     <comment>Show status as Rejected for Rejected response request to user.</comment>
   </data>
   <data name="MaxCompanyResponseMessage" xml:space="preserve">
-    <value>Max limit reached for approved company responses. Please contact your admin to get more details.</value>
+    <value>承認済み組織の回答の最大数に達しました。詳細については、管理者にお問い合わせください。</value>
     <comment>Max responses message to be displayed in client app.</comment>
   </data>
   <data name="BotCommandTakeATour" xml:space="preserve">
-    <value>Take a tour</value>
+    <value>ツアーを開始</value>
     <comment>Bot command take a tour</comment>
   </data>
 </root>

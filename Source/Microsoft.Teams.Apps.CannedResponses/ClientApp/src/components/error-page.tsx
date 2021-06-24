@@ -3,6 +3,7 @@
 // </copyright>
 
 import * as React from "react";
+import * as microsoftTeams from "@microsoft/teams-js";
 import { RouteComponentProps } from "react-router-dom";
 import { Text, Loader } from "@fluentui/react";
 import { IAppSettings } from "./user-response";
@@ -22,7 +23,8 @@ interface errorPageState {
     resourceStrings: IResourceString,
 }
 
-export class ErrorPage extends React.Component<RouteComponentProps, errorPageState> {
+export class ErrorPage extends React.Component<RouteComponentProps, errorPageState> {   
+    locale: string = "";
     private appSettings: IAppSettings = {
         telemetry: "",
         token: "",
@@ -47,8 +49,19 @@ export class ErrorPage extends React.Component<RouteComponentProps, errorPageSta
     }
 
     async componentDidMount() {
-        let data = await getErrorResourceStringsFromApi(this.appSettings.token);
+        microsoftTeams.initialize();
+        microsoftTeams.getContext((context) => {
+            this.locale = context.locale;
+            this.getResourceStrings();
+        });
+    }
 
+    /**
+    *Get localized resource strings from API
+    */
+    async getResourceStrings() {
+
+        let data = await getErrorResourceStringsFromApi(this.appSettings.token, this.locale);
         if (data) {
             this.setState({
                 resourceStrings: data

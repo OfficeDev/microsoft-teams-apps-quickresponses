@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "name.short": "Schnellantworten Administrator",
+  "name.full": "Administrator-Bot für Schnellantworten",
+  "description.short": "Admin-Bot für Schnellantworten zur Unterstützung bei Benutzerantworten.",
+  "description.full": "Verwalten der vom Benutzer eingereichten Unternehmensantworten und Ändern der Schnellantwortkategorie, der Bezeichnung und des Antworttextes vor der endgültigen Übermittlung.",
+  "bots[0].commandLists[0].commands[0].title": "Eine Tour machen",
+  "bots[0].commandLists[0].commands[0].description": "Eine Tour machen"
+}

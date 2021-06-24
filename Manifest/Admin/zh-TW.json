@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "name.short": "快速回應系統管理員",
+  "name.full": "快速回應系統管理 Bot",
+  "description.short": "快速回應系統管理 Bot 可協助您管理使用者提交的回應。",
+  "description.full": "受管理使用者已提交公司回應，並修改快速回應類別、標籤與回應文字，然後再提交。",
+  "bots[0].commandLists[0].commands[0].title": "導覽",
+  "bots[0].commandLists[0].commands[0].description": "導覽"
+}
