@@ -118,91 +118,91 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddButtonText" xml:space="preserve">
-    <value>Save</value>
+    <value>保存</value>
     <comment>Add button text in client app.</comment>
   </data>
   <data name="AddNewButtonText" xml:space="preserve">
-    <value>Add new</value>
+    <value>新增</value>
     <comment>Add new button text for client app.</comment>
   </data>
   <data name="AddNewSuggestionFailedMessage" xml:space="preserve">
-    <value>Something went wrong. Make your suggestion again.</value>
+    <value>出现问题。请再次提出建议。</value>
     <comment>Error message when failed to suggest a new request to company KB.</comment>
   </data>
   <data name="AddNewSuggestionSuccessMessage" xml:space="preserve">
-    <value>Suggestion added!</value>
+    <value>已添加建议!</value>
     <comment>Success message on successfully adding new suggestion in company responses.</comment>
   </data>
   <data name="AddUserResponseFailedMessage" xml:space="preserve">
-    <value>Something went wrong. Try adding a response again.</value>
+    <value>出现错误。请再次尝试添加响应。</value>
     <comment>Error message shown if a new response is not added for some reason.</comment>
   </data>
   <data name="AddUserResponseSuccessMessage" xml:space="preserve">
-    <value>Added successfully!</value>
+    <value>添加成功!</value>
     <comment>Success message on successfully adding user response in my responses.</comment>
   </data>
   <data name="ApproveButtonTitle" xml:space="preserve">
-    <value>Approve</value>
+    <value>接受</value>
     <comment>Approve button title text in new suggested response notification card in SME team.</comment>
   </data>
   <data name="ApprovedAdminCardLabelText" xml:space="preserve">
-    <value>Approved: {0} by {1}</value>
+    <value>已批准: 由 {1} 于 {0}</value>
     <comment>Show datetime and approver name for approved request on refreshed card.</comment>
   </data>
   <data name="ApprovedCardLabelText" xml:space="preserve">
-    <value>Approved: {0}</value>
+    <value>已批准: {0}</value>
     <comment>Show datetime for approved request.</comment>
   </data>
   <data name="ApprovedRequestRefreshCardTitle" xml:space="preserve">
-    <value>**Request approved**</value>
+    <value>**请求已批准**</value>
     <comment>Show the title after request has approved on refreshed card.</comment>
   </data>
   <data name="ApproveToggleCardLabelPlaceholder" xml:space="preserve">
-    <value>Type category</value>
+    <value>类型类别</value>
     <comment>Approve toggle card label placeholder text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardCategoryTitle" xml:space="preserve">
-    <value>Category</value>
+    <value>类别</value>
     <comment>Approve toggle card category title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardQuestionsPlaceholder" xml:space="preserve">
-    <value>Type questions separated by semicolons (;)</value>
+    <value>用分号 (;) 分隔的问题</value>
     <comment>Approve toggle card questions placeholder text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardQuestionsTitle" xml:space="preserve">
-    <value>Question(s)</value>
+    <value>问题</value>
     <comment>Approve toggle card questions title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardResponsePlaceholder" xml:space="preserve">
-    <value>Type response</value>
+    <value>键入答复</value>
     <comment>Approve toggle card response placeholder text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardResponseTitle" xml:space="preserve">
-    <value>Response</value>
+    <value>答复</value>
     <comment>Approve toggle card response title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardSubmitButtonTitle" xml:space="preserve">
-    <value>Submit</value>
+    <value>提交</value>
     <comment>Approve toggle card submit button title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="BackButtonText" xml:space="preserve">
-    <value>Back</value>
+    <value>返回</value>
     <comment>Back button text used in client app.</comment>
   </data>
   <data name="CancelButtonText" xml:space="preserve">
-    <value>Cancel</value>
+    <value>取消</value>
     <comment>Cancel button text to be displayed in client app.</comment>
   </data>
   <data name="ChatTextButton" xml:space="preserve">
-    <value>Chat with {0}</value>
+    <value>与 {0} 聊天</value>
     <comment>Ability to chat directly with end user from SME channel.</comment>
   </data>
   <data name="CompanyResponsesMenuText" xml:space="preserve">
-    <value>Company responses</value>
+    <value>公司答复</value>
     <comment>Company responses menu text in client app.</comment>
   </data>
   <data name="ConfirmButtonText" xml:space="preserve">
-    <value>Confirm</value>
+    <value>确认</value>
     <comment>Confirm button text to be displayed in client app.</comment>
   </data>
   <data name="DateFormat" xml:space="preserve">
@@ -210,251 +210,251 @@
     <comment>Used in date string format for adaptive card. {0} is for date and {1} is for time.</comment>
   </data>
   <data name="DeleteButtonText" xml:space="preserve">
-    <value>Delete</value>
+    <value>删除</value>
     <comment>Delete button text in client app.</comment>
   </data>
   <data name="DialogConfirmHeader" xml:space="preserve">
-    <value>Action confirmation</value>
+    <value>操作确认</value>
     <comment>Header for action confirmation for dialog in client app.</comment>
   </data>
   <data name="DialogConfirmText" xml:space="preserve">
-    <value>Are you sure you want to confirm this action?</value>
+    <value>是否确定要确认此操作?</value>
     <comment>Message to be displayed when user submits an action through dialog in client app.</comment>
   </data>
   <data name="EditButtonText" xml:space="preserve">
-    <value>Edit</value>
+    <value>编辑</value>
     <comment>Edit button text for client app.</comment>
   </data>
   <data name="EditUserResponseFailedMessage" xml:space="preserve">
-    <value>Something went wrong. Try updating again.</value>
+    <value>出现问题。请尝试再次更新。</value>
     <comment>Error message when editing an entry failed.</comment>
   </data>
   <data name="EditUserResponseSuccessMessage" xml:space="preserve">
-    <value>Update saved!</value>
+    <value>更新已保存!</value>
     <comment>Success message when editing an entry successfully.</comment>
   </data>
   <data name="ErrorMessage" xml:space="preserve">
-    <value>Something went wrong. Try again in a few minutes.</value>
+    <value>出现 问 题。 请在几分钟后重试。</value>
     <comment>Error message when bot throws exception or unable to perform a task (Generic error message).</comment>
   </data>
   <data name="ErrorMessageOnApprove" xml:space="preserve">
-    <value>Category, question and response fields are mandatory to approve the response.</value>
+    <value>类别、问题和答复字段是批准答复的必备条件。</value>
     <comment>Show error message while approving the suggested response if any field is empty.</comment>
   </data>
   <data name="FieldRequiredMessage" xml:space="preserve">
-    <value>This field is required</value>
+    <value>此 字段 为 必填字段</value>
     <comment>Error message when user did not fill all the mandatory field in client app.</comment>
   </data>
   <data name="Label" xml:space="preserve">
-    <value>Category</value>
+    <value>类别</value>
     <comment>Label text used in form for client app.</comment>
   </data>
   <data name="ManageYourResponsesTitleText" xml:space="preserve">
-    <value>Manage your responses</value>
+    <value>管理答复</value>
     <comment>Manage your responses subtitle text shown below the bot name when my responses or company responses task module opens.</comment>
   </data>
   <data name="MaxResponsesMessage" xml:space="preserve">
-    <value>You can create maximum 200 user responses</value>
+    <value>最多可以创建 200 个用户回复</value>
     <comment>Max responses message to be displayed in client app.</comment>
   </data>
   <data name="MyResponsesText" xml:space="preserve">
-    <value>Your responses</value>
+    <value>你的答复</value>
     <comment>My responses text to be displayed in client app.</comment>
   </data>
   <data name="NotificationCardApprovedOrRejectedTitle" xml:space="preserve">
-    <value>**Thanks for suggesting a company response.**</value>
+    <value>**感谢所提出的公司答复建议。**</value>
     <comment>Show approved title for approved response request to user.</comment>
   </data>
   <data name="NotificationCardLabelText" xml:space="preserve">
-    <value>**Category:**</value>
+    <value>**类别:**</value>
     <comment>Notification card label text.</comment>
   </data>
   <data name="NotificationCardQuestion" xml:space="preserve">
-    <value>**Question:**</value>
+    <value>**问题:**</value>
     <comment>Notification card question.</comment>
   </data>
   <data name="NotificationCardRemark" xml:space="preserve">
-    <value>**Comment**</value>
+    <value>**注释**</value>
     <comment>Notification card remark.</comment>
   </data>
   <data name="NotificationCardRequestReject" xml:space="preserve">
-    <value>**Request  rejected**</value>
+    <value>**已拒绝请求**</value>
     <comment>Notification card request rejected.</comment>
   </data>
   <data name="NotificationCardRequestText" xml:space="preserve">
-    <value>Suggested by {0}</value>
+    <value>由 {0} 建议</value>
     <comment>Notification card request reject text.</comment>
   </data>
   <data name="NotificationCardResponse" xml:space="preserve">
-    <value>**Response:**</value>
+    <value>**答复:**</value>
     <comment>Notification card response.</comment>
   </data>
   <data name="NotificationCardStatusText" xml:space="preserve">
-    <value>Status: {0}</value>
+    <value>状态: {0}</value>
     <comment>Notification card status text.</comment>
   </data>
   <data name="NotificationRequestCardContentText" xml:space="preserve">
-    <value>**New! Company response for approval**</value>
+    <value>**最新! 公司对审批的答复**</value>
     <comment>Notification request card content text.</comment>
   </data>
   <data name="Question" xml:space="preserve">
-    <value>Question</value>
+    <value>问题</value>
     <comment>Question text for client app.</comment>
   </data>
   <data name="Questions" xml:space="preserve">
-    <value>Question(s)</value>
+    <value>问题</value>
     <comment>Questions title text used in form for client app.</comment>
   </data>
   <data name="RefreshedNotificationCardRequestText" xml:space="preserve">
-    <value>Suggested by {0}</value>
+    <value>由 {0} 建议</value>
     <comment>Notification card request text after approval or rejection.</comment>
   </data>
   <data name="RejectButtonTitle" xml:space="preserve">
-    <value>Reject</value>
+    <value>拒绝</value>
     <comment>Reject button title text in new suggested response notification card in SME team.</comment>
   </data>
   <data name="RejectedAdminCardLabelText" xml:space="preserve">
-    <value>Rejected: {0} by {1}</value>
+    <value>已拒绝: 由 {1} 于 {0}</value>
     <comment>Show datetime and rejector name for rejected request on refreshed card.</comment>
   </data>
   <data name="RejectedCardLabelText" xml:space="preserve">
-    <value>Rejected: {0}</value>
+    <value>已拒绝: {0}</value>
     <comment>Show datetime for rejected request.</comment>
   </data>
   <data name="RejectToggleCardRemarkPlaceholder" xml:space="preserve">
-    <value>Explain why this was rejected (optional)</value>
+    <value>解释拒绝原因 (可选)</value>
     <comment>Reject toggle card remark placeholder text in suggested response notification card in SME team.</comment>
   </data>
   <data name="RejectToggleCardRemarkTitle" xml:space="preserve">
-    <value>Comment</value>
+    <value>注释</value>
     <comment>Reject toggle card remark title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="RejectToggleCardSubmitButtonTitle" xml:space="preserve">
-    <value>Submit</value>
+    <value>提交</value>
     <comment>Reject toggle card submit button title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="RequestedOnText" xml:space="preserve">
-    <value>Requested on</value>
+    <value>已请求</value>
     <comment>Requested on text in client app.</comment>
   </data>
   <data name="RequestsMenuText" xml:space="preserve">
-    <value>Requests</value>
+    <value>请求</value>
     <comment>Requests menu text in client app.</comment>
   </data>
   <data name="Response" xml:space="preserve">
-    <value>Response</value>
+    <value>答复</value>
     <comment>Response text used in form for client app.</comment>
   </data>
   <data name="SearchPlaceholder" xml:space="preserve">
-    <value>Search...</value>
+    <value>搜索...</value>
     <comment>Search input placeholder in client app.</comment>
   </data>
   <data name="StatusText" xml:space="preserve">
-    <value>Status</value>
+    <value>状态</value>
     <comment>Status text in client app.</comment>
   </data>
   <data name="SuggestButtonText" xml:space="preserve">
-    <value>Suggest</value>
+    <value>建议</value>
     <comment>Suggest button text used in client app.</comment>
   </data>
   <data name="SuggestNewButtonText" xml:space="preserve">
-    <value>Suggest new</value>
+    <value>建议新</value>
     <comment>Suggest new button text used in client app.</comment>
   </data>
   <data name="TypeCategoryPlaceholder" xml:space="preserve">
-    <value>Type category</value>
+    <value>类型类别</value>
     <comment>Placeholder for category text input used in form for client app.</comment>
   </data>
   <data name="TypeQuestionPlaceholder" xml:space="preserve">
-    <value>Type questions separated by semicolons (;)</value>
+    <value>用分号 (;) 分隔的问题</value>
     <comment>Placeholder for question text input used in form for client app.</comment>
   </data>
   <data name="TypeResponsePlaceholder" xml:space="preserve">
-    <value>Type response</value>
+    <value>键入答复</value>
     <comment>Placeholder for response text input used in form for client app.</comment>
   </data>
   <data name="UpdateAndShareButtonText" xml:space="preserve">
-    <value>Send update</value>
+    <value>发送更新</value>
     <comment>Update and share button text in client app.</comment>
   </data>
   <data name="UpdateButtonText" xml:space="preserve">
-    <value>Save</value>
+    <value>保存</value>
     <comment>Update button text in client app.</comment>
   </data>
   <data name="WelcomeCardChatRequestorContentText" xml:space="preserve">
-    <value>- Chat with requester.</value>
+    <value>- 与请求者聊天。</value>
     <comment>Welcome card content text10.</comment>
   </data>
   <data name="WelcomeCardContent" xml:space="preserve">
-    <value>Click the small version of my icon near your message formatting options to get started.</value>
+    <value>点击“信息格式选项”附近的“我的图标”小版本开始。</value>
     <comment>Welcome card content text.</comment>
   </data>
   <data name="WelcomeCardLabelContentText" xml:space="preserve">
-    <value>- Edit response response before final submission.</value>
+    <value>- 在最后提交之前，编辑答复回复。</value>
     <comment>Welcome card content text9.</comment>
   </data>
   <data name="WelcomeCardResponseListContentText" xml:space="preserve">
-    <value>- Manager your personal responses.</value>
+    <value>- 管理你的个人答复。</value>
     <comment>Welcome card content text2.</comment>
   </data>
   <data name="WelcomeCardSuggestedContentText" xml:space="preserve">
-    <value>- Suggest new responses to use across company and check your request status.</value>
+    <value>-建议新响应以在公司范围内使用，并检查您的请求状态。</value>
     <comment>Welcome card content text7.</comment>
   </data>
   <data name="WelcomeCardSuggestResponseContentText" xml:space="preserve">
-    <value>- Suggest new response to add in company responses.</value>
+    <value>-建议新响应以添加到公司响应。</value>
     <comment>Welcome card content text4.</comment>
   </data>
   <data name="WelcomeCardThingsContentText" xml:space="preserve">
-    <value>Here are some of the things that I can do:</value>
+    <value>以下是我能够执行的一些操作:</value>
     <comment>Welcome card content text1.</comment>
   </data>
   <data name="WelcomeCardTitle" xml:space="preserve">
-    <value>Welcome! Hello, I can help you to manage your quick responses to search and share in chat messages.</value>
+    <value>欢迎加入! 你好，我可以帮你管理在聊天信息中搜索和共享的快速回复。</value>
     <comment>Welcome card title text.</comment>
   </data>
   <data name="ForbiddenErrorMessage" xml:space="preserve">
-    <value>You cannot access this page. Contact your IT admin for permission.</value>
+    <value>您不能访问此页面。请联系你的 IT 管理员以获得权限。</value>
     <comment>Forbidden http status code.</comment>
   </data>
   <data name="GeneralErrorMessage" xml:space="preserve">
-    <value>Something went wrong. Try again in a few minutes.</value>
+    <value>出现 问 题。 请在几分钟后重试。</value>
     <comment>General error message to be shown in client app.</comment>
   </data>
   <data name="RefreshLinkText" xml:space="preserve">
-    <value>Refresh</value>
+    <value>刷新</value>
     <comment>Refresh link text for error page in client app.</comment>
   </data>
   <data name="UnauthorizedErrorMessage" xml:space="preserve">
-    <value>Something went wrong. Try again in a few minutes.</value>
+    <value>出现 问 题。 请在几分钟后重试。</value>
     <comment>Http status code 404</comment>
   </data>
   <data name="UserCustomMessage" xml:space="preserve">
-    <value>Hello, I don't support bot commands.</value>
+    <value>你好，不支持机器人命令。</value>
     <comment>When user asks bot a questions- a message appears saying that bot command is not supported in personal scope.</comment>
   </data>
   <data name="ErrorWhenMessageInChannel" xml:space="preserve">
-    <value>App does not support any bot commands, please use messaging extension for better results.</value>
+    <value>应用不支持任何机器人命令，请使用消息传递扩展以获得更好的效果。</value>
     <comment>Error message when Admin messages in channel.</comment>
   </data>
   <data name="WelcomeCardContentForAdmin" xml:space="preserve">
-    <value>Hello, I can assist you in managing user submitted responses.</value>
+    <value>你好，我可以协助你管理用户提交的回复。</value>
     <comment>Welcome card content text for admin.</comment>
   </data>
   <data name="ApprovedRequestStatusText" xml:space="preserve">
-    <value>Approved</value>
+    <value>已批准</value>
     <comment>Show status as approved for approved response request to user.</comment>
   </data>
   <data name="RejectedRequestStatusText" xml:space="preserve">
-    <value>Rejected</value>
+    <value>已拒绝</value>
     <comment>Show status as Rejected for Rejected response request to user.</comment>
   </data>
   <data name="MaxCompanyResponseMessage" xml:space="preserve">
-    <value>Max limit reached for approved company responses. Please contact your admin to get more details.</value>
+    <value>已批准的公司响应已达到最大限制。请与管理员联系以获取更多详细信息。</value>
     <comment>Max responses message to be displayed in client app.</comment>
   </data>
   <data name="BotCommandTakeATour" xml:space="preserve">
-    <value>Take a tour</value>
+    <value>浏览</value>
     <comment>Bot command take a tour</comment>
   </data>
 </root>

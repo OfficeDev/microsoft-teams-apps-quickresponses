@@ -118,91 +118,91 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddButtonText" xml:space="preserve">
-    <value>Save</value>
+    <value>حفظ</value>
     <comment>Add button text in client app.</comment>
   </data>
   <data name="AddNewButtonText" xml:space="preserve">
-    <value>Add new</value>
+    <value>إضافة جديد</value>
     <comment>Add new button text for client app.</comment>
   </data>
   <data name="AddNewSuggestionFailedMessage" xml:space="preserve">
-    <value>Something went wrong. Make your suggestion again.</value>
+    <value>حدث خطأ ما. أدخل اقتراحك مرة أخرى.</value>
     <comment>Error message when failed to suggest a new request to company KB.</comment>
   </data>
   <data name="AddNewSuggestionSuccessMessage" xml:space="preserve">
-    <value>Suggestion added!</value>
+    <value>تمت إضافة الاقتراح!</value>
     <comment>Success message on successfully adding new suggestion in company responses.</comment>
   </data>
   <data name="AddUserResponseFailedMessage" xml:space="preserve">
-    <value>Something went wrong. Try adding a response again.</value>
+    <value>حدث خطا ما. حاول أضافه استجابه مره أخرى.</value>
     <comment>Error message shown if a new response is not added for some reason.</comment>
   </data>
   <data name="AddUserResponseSuccessMessage" xml:space="preserve">
-    <value>Added successfully!</value>
+    <value>تمت الإضافة بنجاح!</value>
     <comment>Success message on successfully adding user response in my responses.</comment>
   </data>
   <data name="ApproveButtonTitle" xml:space="preserve">
-    <value>Approve</value>
+    <value>قبول</value>
     <comment>Approve button title text in new suggested response notification card in SME team.</comment>
   </data>
   <data name="ApprovedAdminCardLabelText" xml:space="preserve">
-    <value>Approved: {0} by {1}</value>
+    <value>تمت الموافقة: {0} بواسطة {1}</value>
     <comment>Show datetime and approver name for approved request on refreshed card.</comment>
   </data>
   <data name="ApprovedCardLabelText" xml:space="preserve">
-    <value>Approved: {0}</value>
+    <value>تمت الموافقة: {0}</value>
     <comment>Show datetime for approved request.</comment>
   </data>
   <data name="ApprovedRequestRefreshCardTitle" xml:space="preserve">
-    <value>**Request approved**</value>
+    <value>**تمت الموافقة على الطلب**</value>
     <comment>Show the title after request has approved on refreshed card.</comment>
   </data>
   <data name="ApproveToggleCardLabelPlaceholder" xml:space="preserve">
-    <value>Type category</value>
+    <value>كتابة الفئة</value>
     <comment>Approve toggle card label placeholder text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardCategoryTitle" xml:space="preserve">
-    <value>Category</value>
+    <value>الفئة</value>
     <comment>Approve toggle card category title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardQuestionsPlaceholder" xml:space="preserve">
-    <value>Type questions separated by semicolons (;)</value>
+    <value>اكتب الأسئلة مفصولة بفواصل منقوطة (;)</value>
     <comment>Approve toggle card questions placeholder text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardQuestionsTitle" xml:space="preserve">
-    <value>Question(s)</value>
+    <value>السؤال (الأسئلة)</value>
     <comment>Approve toggle card questions title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardResponsePlaceholder" xml:space="preserve">
-    <value>Type response</value>
+    <value>كتابة الاستجابة</value>
     <comment>Approve toggle card response placeholder text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardResponseTitle" xml:space="preserve">
-    <value>Response</value>
+    <value>الاستجابة</value>
     <comment>Approve toggle card response title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardSubmitButtonTitle" xml:space="preserve">
-    <value>Submit</value>
+    <value>إرسال</value>
     <comment>Approve toggle card submit button title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="BackButtonText" xml:space="preserve">
-    <value>Back</value>
+    <value>عودة</value>
     <comment>Back button text used in client app.</comment>
   </data>
   <data name="CancelButtonText" xml:space="preserve">
-    <value>Cancel</value>
+    <value>إلغاء</value>
     <comment>Cancel button text to be displayed in client app.</comment>
   </data>
   <data name="ChatTextButton" xml:space="preserve">
-    <value>Chat with {0}</value>
+    <value>دردشة مع {0}</value>
     <comment>Ability to chat directly with end user from SME channel.</comment>
   </data>
   <data name="CompanyResponsesMenuText" xml:space="preserve">
-    <value>Company responses</value>
+    <value>استجابات الشركة</value>
     <comment>Company responses menu text in client app.</comment>
   </data>
   <data name="ConfirmButtonText" xml:space="preserve">
-    <value>Confirm</value>
+    <value>تأكيد</value>
     <comment>Confirm button text to be displayed in client app.</comment>
   </data>
   <data name="DateFormat" xml:space="preserve">
@@ -210,251 +210,251 @@
     <comment>Used in date string format for adaptive card. {0} is for date and {1} is for time.</comment>
   </data>
   <data name="DeleteButtonText" xml:space="preserve">
-    <value>Delete</value>
+    <value>حذف</value>
     <comment>Delete button text in client app.</comment>
   </data>
   <data name="DialogConfirmHeader" xml:space="preserve">
-    <value>Action confirmation</value>
+    <value>تأكيد الإجراء</value>
     <comment>Header for action confirmation for dialog in client app.</comment>
   </data>
   <data name="DialogConfirmText" xml:space="preserve">
-    <value>Are you sure you want to confirm this action?</value>
+    <value>هل تريد بالفعل تأكيد هذا الإجراء؟</value>
     <comment>Message to be displayed when user submits an action through dialog in client app.</comment>
   </data>
   <data name="EditButtonText" xml:space="preserve">
-    <value>Edit</value>
+    <value>تحرير</value>
     <comment>Edit button text for client app.</comment>
   </data>
   <data name="EditUserResponseFailedMessage" xml:space="preserve">
-    <value>Something went wrong. Try updating again.</value>
+    <value>حدث خطأ ما. حاول التحديث مجدداً.</value>
     <comment>Error message when editing an entry failed.</comment>
   </data>
   <data name="EditUserResponseSuccessMessage" xml:space="preserve">
-    <value>Update saved!</value>
+    <value>تم حفظ التحديث!</value>
     <comment>Success message when editing an entry successfully.</comment>
   </data>
   <data name="ErrorMessage" xml:space="preserve">
-    <value>Something went wrong. Try again in a few minutes.</value>
+    <value>حدث خطأ ما. حاول مرى أخرى بعد بضع دقائق.</value>
     <comment>Error message when bot throws exception or unable to perform a task (Generic error message).</comment>
   </data>
   <data name="ErrorMessageOnApprove" xml:space="preserve">
-    <value>Category, question and response fields are mandatory to approve the response.</value>
+    <value>يجب إدخال حقول "الفئة" و "السؤال" و "الاستجابة" للموافقة على الاستجابة.</value>
     <comment>Show error message while approving the suggested response if any field is empty.</comment>
   </data>
   <data name="FieldRequiredMessage" xml:space="preserve">
-    <value>This field is required</value>
+    <value>هذا الحقل مطلوب </value>
     <comment>Error message when user did not fill all the mandatory field in client app.</comment>
   </data>
   <data name="Label" xml:space="preserve">
-    <value>Category</value>
+    <value>الفئة</value>
     <comment>Label text used in form for client app.</comment>
   </data>
   <data name="ManageYourResponsesTitleText" xml:space="preserve">
-    <value>Manage your responses</value>
+    <value>إدارة استجاباتك</value>
     <comment>Manage your responses subtitle text shown below the bot name when my responses or company responses task module opens.</comment>
   </data>
   <data name="MaxResponsesMessage" xml:space="preserve">
-    <value>You can create maximum 200 user responses</value>
+    <value>يمكنك إنشاء ما يصل إلى 200 استجابة للمستخدمين كحد أقصى</value>
     <comment>Max responses message to be displayed in client app.</comment>
   </data>
   <data name="MyResponsesText" xml:space="preserve">
-    <value>Your responses</value>
+    <value>استجاباتك</value>
     <comment>My responses text to be displayed in client app.</comment>
   </data>
   <data name="NotificationCardApprovedOrRejectedTitle" xml:space="preserve">
-    <value>**Thanks for suggesting a company response.**</value>
+    <value>** شكراً لاقتراح استجابة لشركة.**</value>
     <comment>Show approved title for approved response request to user.</comment>
   </data>
   <data name="NotificationCardLabelText" xml:space="preserve">
-    <value>**Category:**</value>
+    <value>**الفئة**</value>
     <comment>Notification card label text.</comment>
   </data>
   <data name="NotificationCardQuestion" xml:space="preserve">
-    <value>**Question:**</value>
+    <value>**السؤال:**</value>
     <comment>Notification card question.</comment>
   </data>
   <data name="NotificationCardRemark" xml:space="preserve">
-    <value>**Comment**</value>
+    <value>**تعليق**</value>
     <comment>Notification card remark.</comment>
   </data>
   <data name="NotificationCardRequestReject" xml:space="preserve">
-    <value>**Request  rejected**</value>
+    <value>**تم رفض الطلب**</value>
     <comment>Notification card request rejected.</comment>
   </data>
   <data name="NotificationCardRequestText" xml:space="preserve">
-    <value>Suggested by {0}</value>
+    <value>مُقترح بواسطة {0}</value>
     <comment>Notification card request reject text.</comment>
   </data>
   <data name="NotificationCardResponse" xml:space="preserve">
-    <value>**Response:**</value>
+    <value>**استجابة:**</value>
     <comment>Notification card response.</comment>
   </data>
   <data name="NotificationCardStatusText" xml:space="preserve">
-    <value>Status: {0}</value>
+    <value>الحالة: {0}</value>
     <comment>Notification card status text.</comment>
   </data>
   <data name="NotificationRequestCardContentText" xml:space="preserve">
-    <value>**New! Company response for approval**</value>
+    <value>**جديد! استجابة الشركة للموافقة**</value>
     <comment>Notification request card content text.</comment>
   </data>
   <data name="Question" xml:space="preserve">
-    <value>Question</value>
+    <value>سؤال</value>
     <comment>Question text for client app.</comment>
   </data>
   <data name="Questions" xml:space="preserve">
-    <value>Question(s)</value>
+    <value>السؤال (الأسئلة)</value>
     <comment>Questions title text used in form for client app.</comment>
   </data>
   <data name="RefreshedNotificationCardRequestText" xml:space="preserve">
-    <value>Suggested by {0}</value>
+    <value>مُقترح بواسطة {0}</value>
     <comment>Notification card request text after approval or rejection.</comment>
   </data>
   <data name="RejectButtonTitle" xml:space="preserve">
-    <value>Reject</value>
+    <value>رفض</value>
     <comment>Reject button title text in new suggested response notification card in SME team.</comment>
   </data>
   <data name="RejectedAdminCardLabelText" xml:space="preserve">
-    <value>Rejected: {0} by {1}</value>
+    <value>تم الرفض: {0} بواسطة {1}</value>
     <comment>Show datetime and rejector name for rejected request on refreshed card.</comment>
   </data>
   <data name="RejectedCardLabelText" xml:space="preserve">
-    <value>Rejected: {0}</value>
+    <value>تم الرفض: {0}</value>
     <comment>Show datetime for rejected request.</comment>
   </data>
   <data name="RejectToggleCardRemarkPlaceholder" xml:space="preserve">
-    <value>Explain why this was rejected (optional)</value>
+    <value>شرح سبب الرفض (اختياري)</value>
     <comment>Reject toggle card remark placeholder text in suggested response notification card in SME team.</comment>
   </data>
   <data name="RejectToggleCardRemarkTitle" xml:space="preserve">
-    <value>Comment</value>
+    <value>تعليق</value>
     <comment>Reject toggle card remark title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="RejectToggleCardSubmitButtonTitle" xml:space="preserve">
-    <value>Submit</value>
+    <value>إرسال</value>
     <comment>Reject toggle card submit button title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="RequestedOnText" xml:space="preserve">
-    <value>Requested on</value>
+    <value>مطلوب في</value>
     <comment>Requested on text in client app.</comment>
   </data>
   <data name="RequestsMenuText" xml:space="preserve">
-    <value>Requests</value>
+    <value>الطلبات</value>
     <comment>Requests menu text in client app.</comment>
   </data>
   <data name="Response" xml:space="preserve">
-    <value>Response</value>
+    <value>الاستجابة</value>
     <comment>Response text used in form for client app.</comment>
   </data>
   <data name="SearchPlaceholder" xml:space="preserve">
-    <value>Search...</value>
+    <value>بحث...</value>
     <comment>Search input placeholder in client app.</comment>
   </data>
   <data name="StatusText" xml:space="preserve">
-    <value>Status</value>
+    <value>الحالة</value>
     <comment>Status text in client app.</comment>
   </data>
   <data name="SuggestButtonText" xml:space="preserve">
-    <value>Suggest</value>
+    <value>اقتراح</value>
     <comment>Suggest button text used in client app.</comment>
   </data>
   <data name="SuggestNewButtonText" xml:space="preserve">
-    <value>Suggest new</value>
+    <value>اقتراح جديد</value>
     <comment>Suggest new button text used in client app.</comment>
   </data>
   <data name="TypeCategoryPlaceholder" xml:space="preserve">
-    <value>Type category</value>
+    <value>كتابة الفئة</value>
     <comment>Placeholder for category text input used in form for client app.</comment>
   </data>
   <data name="TypeQuestionPlaceholder" xml:space="preserve">
-    <value>Type questions separated by semicolons (;)</value>
+    <value>اكتب الأسئلة مفصولة بفواصل منقوطة (;)</value>
     <comment>Placeholder for question text input used in form for client app.</comment>
   </data>
   <data name="TypeResponsePlaceholder" xml:space="preserve">
-    <value>Type response</value>
+    <value>كتابة الاستجابة</value>
     <comment>Placeholder for response text input used in form for client app.</comment>
   </data>
   <data name="UpdateAndShareButtonText" xml:space="preserve">
-    <value>Send update</value>
+    <value>إرسال تحديث</value>
     <comment>Update and share button text in client app.</comment>
   </data>
   <data name="UpdateButtonText" xml:space="preserve">
-    <value>Save</value>
+    <value>حفظ</value>
     <comment>Update button text in client app.</comment>
   </data>
   <data name="WelcomeCardChatRequestorContentText" xml:space="preserve">
-    <value>- Chat with requester.</value>
+    <value>- الدردشة مع مقدم الطلب.</value>
     <comment>Welcome card content text10.</comment>
   </data>
   <data name="WelcomeCardContent" xml:space="preserve">
-    <value>Click the small version of my icon near your message formatting options to get started.</value>
+    <value>انقر فوق الإصدار الصغير من الايقونه بالقرب من خيارات تنسيق الرسالة لبدء الاستخدام.</value>
     <comment>Welcome card content text.</comment>
   </data>
   <data name="WelcomeCardLabelContentText" xml:space="preserve">
-    <value>- Edit response response before final submission.</value>
+    <value>- تحرير الاستجابة للاستجابة قبل الإرسال النهائي.</value>
     <comment>Welcome card content text9.</comment>
   </data>
   <data name="WelcomeCardResponseListContentText" xml:space="preserve">
-    <value>- Manager your personal responses.</value>
+    <value>- إدارة استجاباتك الشخصية.</value>
     <comment>Welcome card content text2.</comment>
   </data>
   <data name="WelcomeCardSuggestedContentText" xml:space="preserve">
-    <value>- Suggest new responses to use across company and check your request status.</value>
+    <value>- اقترح استجابات جديدة لاستخدامها في الشركة وتحقق من حالة طلبك.</value>
     <comment>Welcome card content text7.</comment>
   </data>
   <data name="WelcomeCardSuggestResponseContentText" xml:space="preserve">
-    <value>- Suggest new response to add in company responses.</value>
+    <value>- اقترح استجابة جديدة لإضافتها في استجابات الشركة.</value>
     <comment>Welcome card content text4.</comment>
   </data>
   <data name="WelcomeCardThingsContentText" xml:space="preserve">
-    <value>Here are some of the things that I can do:</value>
+    <value>إليك بعض الأمور التي يمكنني فعلها من أجلك:</value>
     <comment>Welcome card content text1.</comment>
   </data>
   <data name="WelcomeCardTitle" xml:space="preserve">
-    <value>Welcome! Hello, I can help you to manage your quick responses to search and share in chat messages.</value>
+    <value>أهلا وسهلاً! مرحبا، يمكنني مساعدتك علي إدارة استجاباتك السريعة للبحث والمشاركة في رسائل الدردشة.</value>
     <comment>Welcome card title text.</comment>
   </data>
   <data name="ForbiddenErrorMessage" xml:space="preserve">
-    <value>You cannot access this page. Contact your IT admin for permission.</value>
+    <value>لا يمكنك الوصول إلى هذه الصفحة. اتصل بمسؤول تكنولوجيا المعلومات لديك للحصول على إذن.</value>
     <comment>Forbidden http status code.</comment>
   </data>
   <data name="GeneralErrorMessage" xml:space="preserve">
-    <value>Something went wrong. Try again in a few minutes.</value>
+    <value>حدث خطأ ما. حاول مرى أخرى بعد بضع دقائق.</value>
     <comment>General error message to be shown in client app.</comment>
   </data>
   <data name="RefreshLinkText" xml:space="preserve">
-    <value>Refresh</value>
+    <value>تحديث</value>
     <comment>Refresh link text for error page in client app.</comment>
   </data>
   <data name="UnauthorizedErrorMessage" xml:space="preserve">
-    <value>Something went wrong. Try again in a few minutes.</value>
+    <value>حدث خطأ ما. حاول مرى أخرى بعد بضع دقائق.</value>
     <comment>Http status code 404</comment>
   </data>
   <data name="UserCustomMessage" xml:space="preserve">
-    <value>Hello, I don't support bot commands.</value>
+    <value>مرحباً، لا ندعم أوامر روبوت.</value>
     <comment>When user asks bot a questions- a message appears saying that bot command is not supported in personal scope.</comment>
   </data>
   <data name="ErrorWhenMessageInChannel" xml:space="preserve">
-    <value>App does not support any bot commands, please use messaging extension for better results.</value>
+    <value>لا يدعم التطبيق أي أوامر روبوت، الرجاء استخدام "امتداد المراسلة" للحصول على نتائج أفضل.</value>
     <comment>Error message when Admin messages in channel.</comment>
   </data>
   <data name="WelcomeCardContentForAdmin" xml:space="preserve">
-    <value>Hello, I can assist you in managing user submitted responses.</value>
+    <value>مرحبا ، يمكنني مساعدتك في أداره الاستجابات التي أرسلها المستخدم.</value>
     <comment>Welcome card content text for admin.</comment>
   </data>
   <data name="ApprovedRequestStatusText" xml:space="preserve">
-    <value>Approved</value>
+    <value>تمت الموافقة عليه</value>
     <comment>Show status as approved for approved response request to user.</comment>
   </data>
   <data name="RejectedRequestStatusText" xml:space="preserve">
-    <value>Rejected</value>
+    <value>تم الرفض</value>
     <comment>Show status as Rejected for Rejected response request to user.</comment>
   </data>
   <data name="MaxCompanyResponseMessage" xml:space="preserve">
-    <value>Max limit reached for approved company responses. Please contact your admin to get more details.</value>
+    <value>تم الوصول إلى الحد الأقصى لاستجابات الشركة المعتمدة. يرجى الاتصال بالمسؤول للحصول علي مزيد من التفاصيل.</value>
     <comment>Max responses message to be displayed in client app.</comment>
   </data>
   <data name="BotCommandTakeATour" xml:space="preserve">
-    <value>Take a tour</value>
+    <value>القيام بجولة</value>
     <comment>Bot command take a tour</comment>
   </data>
 </root>

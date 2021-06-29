@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "name.short": "Администратор быстрых ответов",
+  "name.full": "Бот администратора быстрых ответов",
+  "description.short": "Бот администрирования быстрых ответов для управления ответами пользователей.",
+  "description.full": "Управляйте ответами компании, отправленными пользователями, и изменяйте категорию быстрого ответа, подпись и текст ответа перед окончательной отправкой.",
+  "bots[0].commandLists[0].commands[0].title": "Посмотреть обзор",
+  "bots[0].commandLists[0].commands[0].description": "Посмотреть обзор"
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "name.short": "快速响应管理员",
+  "name.full": "快速响应管理员机器人",
+  "description.short": "快速响应管理机器人，可帮助您管理用户已提交的响应。",
+  "description.full": "托管用户在最终提交前已提交公司响应并修改快速响应类别、标签和响应文本。",
+  "bots[0].commandLists[0].commands[0].title": "浏览",
+  "bots[0].commandLists[0].commands[0].description": "浏览"
+}

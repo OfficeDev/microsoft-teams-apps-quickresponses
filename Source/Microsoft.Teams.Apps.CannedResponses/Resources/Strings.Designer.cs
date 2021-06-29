@@ -232,6 +232,15 @@ namespace Microsoft.Teams.Apps.CannedResponses {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Take a tour.
+        /// </summary>
+        public static string BotCommandTakeATour {
+            get {
+                return ResourceManager.GetString("BotCommandTakeATour", resourceCulture);
+            }
+        }
+          
+        /// <summary>
         ///   Looks up a localized string similar to Cancel.
         /// </summary>
         public static string CancelButtonText {
@@ -257,7 +266,7 @@ namespace Microsoft.Teams.Apps.CannedResponses {
                 return ResourceManager.GetString("CompanyResponsesMenuText", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Confirm.
         /// </summary>

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "name.short": "빠른 응답 관리자",
+  "name.full": "빠른 응답 관리자 봇",
+  "description.short": "빠른 응답 관리 봇이 사용자가 제출한 응답을 관리할 수 있도록 지원합니다.",
+  "description.full": "관리 사용자가 회사 응답을 제출하고 최종 제출 전에 빠른 응답 카테고리, 레이블 및 응답 텍스트를 수정합니다.",
+  "bots[0].commandLists[0].commands[0].title": "둘러보기",
+  "bots[0].commandLists[0].commands[0].description": "둘러보기"
+}

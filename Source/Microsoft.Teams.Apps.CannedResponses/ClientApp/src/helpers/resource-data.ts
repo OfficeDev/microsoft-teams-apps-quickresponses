@@ -18,8 +18,8 @@ export const getResourceStringsFromApi = async (appInsights: ApplicationInsights
 	}
 }
 
-export const getErrorResourceStringsFromApi = async (token?: string | null): Promise<any> => {
-	let response = await getErrorResourceStrings(token);
+export const getErrorResourceStringsFromApi = async (token?: string | null, locale?: string | null): Promise<any> => {
+	let response = await getErrorResourceStrings(token, locale);
 	if (response.status === 200 && response.data) {
 		return response.data;
 	}

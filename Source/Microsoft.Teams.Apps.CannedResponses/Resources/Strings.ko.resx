@@ -118,343 +118,343 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddButtonText" xml:space="preserve">
-    <value>Save</value>
+    <value>저장</value>
     <comment>Add button text in client app.</comment>
   </data>
   <data name="AddNewButtonText" xml:space="preserve">
-    <value>Add new</value>
+    <value>새로 추가</value>
     <comment>Add new button text for client app.</comment>
   </data>
   <data name="AddNewSuggestionFailedMessage" xml:space="preserve">
-    <value>Something went wrong. Make your suggestion again.</value>
+    <value>오류가 발생했습니다. 다시 추천하세요.</value>
     <comment>Error message when failed to suggest a new request to company KB.</comment>
   </data>
   <data name="AddNewSuggestionSuccessMessage" xml:space="preserve">
-    <value>Suggestion added!</value>
+    <value>추천이 추가되었습니다!</value>
     <comment>Success message on successfully adding new suggestion in company responses.</comment>
   </data>
   <data name="AddUserResponseFailedMessage" xml:space="preserve">
-    <value>Something went wrong. Try adding a response again.</value>
+    <value>오류가 발생했습니다. 응답을 다시 추가해 보세요.</value>
     <comment>Error message shown if a new response is not added for some reason.</comment>
   </data>
   <data name="AddUserResponseSuccessMessage" xml:space="preserve">
-    <value>Added successfully!</value>
+    <value>추가되었습니다!</value>
     <comment>Success message on successfully adding user response in my responses.</comment>
   </data>
   <data name="ApproveButtonTitle" xml:space="preserve">
-    <value>Approve</value>
+    <value>승인</value>
     <comment>Approve button title text in new suggested response notification card in SME team.</comment>
   </data>
   <data name="ApprovedAdminCardLabelText" xml:space="preserve">
-    <value>Approved: {0} by {1}</value>
+    <value>{0} {1} 님이 승인함</value>
     <comment>Show datetime and approver name for approved request on refreshed card.</comment>
   </data>
   <data name="ApprovedCardLabelText" xml:space="preserve">
-    <value>Approved: {0}</value>
+    <value>승인됨: {0}</value>
     <comment>Show datetime for approved request.</comment>
   </data>
   <data name="ApprovedRequestRefreshCardTitle" xml:space="preserve">
-    <value>**Request approved**</value>
+    <value>**요청 승인됨**</value>
     <comment>Show the title after request has approved on refreshed card.</comment>
   </data>
   <data name="ApproveToggleCardLabelPlaceholder" xml:space="preserve">
-    <value>Type category</value>
+    <value>유형 범주</value>
     <comment>Approve toggle card label placeholder text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardCategoryTitle" xml:space="preserve">
-    <value>Category</value>
+    <value>범주</value>
     <comment>Approve toggle card category title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardQuestionsPlaceholder" xml:space="preserve">
-    <value>Type questions separated by semicolons (;)</value>
+    <value>세미콜론(;)으로 구분하여 질문을 입력합니다</value>
     <comment>Approve toggle card questions placeholder text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardQuestionsTitle" xml:space="preserve">
-    <value>Question(s)</value>
+    <value>질문</value>
     <comment>Approve toggle card questions title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardResponsePlaceholder" xml:space="preserve">
-    <value>Type response</value>
+    <value>응답 형식</value>
     <comment>Approve toggle card response placeholder text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardResponseTitle" xml:space="preserve">
-    <value>Response</value>
+    <value>응답</value>
     <comment>Approve toggle card response title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="ApproveToggleCardSubmitButtonTitle" xml:space="preserve">
-    <value>Submit</value>
+    <value>제출</value>
     <comment>Approve toggle card submit button title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="BackButtonText" xml:space="preserve">
-    <value>Back</value>
+    <value>뒤로</value>
     <comment>Back button text used in client app.</comment>
   </data>
   <data name="CancelButtonText" xml:space="preserve">
-    <value>Cancel</value>
+    <value>취소</value>
     <comment>Cancel button text to be displayed in client app.</comment>
   </data>
   <data name="ChatTextButton" xml:space="preserve">
-    <value>Chat with {0}</value>
+    <value>{0} 님과 채팅</value>
     <comment>Ability to chat directly with end user from SME channel.</comment>
   </data>
   <data name="CompanyResponsesMenuText" xml:space="preserve">
-    <value>Company responses</value>
+    <value>회사 응답</value>
     <comment>Company responses menu text in client app.</comment>
   </data>
   <data name="ConfirmButtonText" xml:space="preserve">
-    <value>Confirm</value>
+    <value>확인</value>
     <comment>Confirm button text to be displayed in client app.</comment>
   </data>
   <data name="DateFormat" xml:space="preserve">
-    <value>{0} {1}</value>
+    <value>{0}{1}</value>
     <comment>Used in date string format for adaptive card. {0} is for date and {1} is for time.</comment>
   </data>
   <data name="DeleteButtonText" xml:space="preserve">
-    <value>Delete</value>
+    <value>삭제</value>
     <comment>Delete button text in client app.</comment>
   </data>
   <data name="DialogConfirmHeader" xml:space="preserve">
-    <value>Action confirmation</value>
+    <value>작업 확인</value>
     <comment>Header for action confirmation for dialog in client app.</comment>
   </data>
   <data name="DialogConfirmText" xml:space="preserve">
-    <value>Are you sure you want to confirm this action?</value>
+    <value>이 작업을 확인하시겠습니까?</value>
     <comment>Message to be displayed when user submits an action through dialog in client app.</comment>
   </data>
   <data name="EditButtonText" xml:space="preserve">
-    <value>Edit</value>
+    <value>편집</value>
     <comment>Edit button text for client app.</comment>
   </data>
   <data name="EditUserResponseFailedMessage" xml:space="preserve">
-    <value>Something went wrong. Try updating again.</value>
+    <value>오류가 발생했습니다. 다시 업데이트하세요.</value>
     <comment>Error message when editing an entry failed.</comment>
   </data>
   <data name="EditUserResponseSuccessMessage" xml:space="preserve">
-    <value>Update saved!</value>
+    <value>업데이트가 저장되었습니다!</value>
     <comment>Success message when editing an entry successfully.</comment>
   </data>
   <data name="ErrorMessage" xml:space="preserve">
-    <value>Something went wrong. Try again in a few minutes.</value>
+    <value>문제가 발생 했습니다. 몇 분 후에 다시 시도하세요.</value>
     <comment>Error message when bot throws exception or unable to perform a task (Generic error message).</comment>
   </data>
   <data name="ErrorMessageOnApprove" xml:space="preserve">
-    <value>Category, question and response fields are mandatory to approve the response.</value>
+    <value>범주, 질문과 응답 필드는 응답을 승인할 수 있습니다.</value>
     <comment>Show error message while approving the suggested response if any field is empty.</comment>
   </data>
   <data name="FieldRequiredMessage" xml:space="preserve">
-    <value>This field is required</value>
+    <value>이 필드는 필수 입니다</value>
     <comment>Error message when user did not fill all the mandatory field in client app.</comment>
   </data>
   <data name="Label" xml:space="preserve">
-    <value>Category</value>
+    <value>범주</value>
     <comment>Label text used in form for client app.</comment>
   </data>
   <data name="ManageYourResponsesTitleText" xml:space="preserve">
-    <value>Manage your responses</value>
+    <value>응답 관리</value>
     <comment>Manage your responses subtitle text shown below the bot name when my responses or company responses task module opens.</comment>
   </data>
   <data name="MaxResponsesMessage" xml:space="preserve">
-    <value>You can create maximum 200 user responses</value>
+    <value>최대 200개의 사용자 응답을 만들 수 있습니다</value>
     <comment>Max responses message to be displayed in client app.</comment>
   </data>
   <data name="MyResponsesText" xml:space="preserve">
-    <value>Your responses</value>
+    <value>내 응답</value>
     <comment>My responses text to be displayed in client app.</comment>
   </data>
   <data name="NotificationCardApprovedOrRejectedTitle" xml:space="preserve">
-    <value>**Thanks for suggesting a company response.**</value>
+    <value>**회사 응답을 추천해 주셔서 감사합니다.**</value>
     <comment>Show approved title for approved response request to user.</comment>
   </data>
   <data name="NotificationCardLabelText" xml:space="preserve">
-    <value>**Category:**</value>
+    <value>**범주:**</value>
     <comment>Notification card label text.</comment>
   </data>
   <data name="NotificationCardQuestion" xml:space="preserve">
-    <value>**Question:**</value>
+    <value>**질문:**</value>
     <comment>Notification card question.</comment>
   </data>
   <data name="NotificationCardRemark" xml:space="preserve">
-    <value>**Comment**</value>
+    <value>**설명**</value>
     <comment>Notification card remark.</comment>
   </data>
   <data name="NotificationCardRequestReject" xml:space="preserve">
-    <value>**Request  rejected**</value>
+    <value>**요청 거부됨**</value>
     <comment>Notification card request rejected.</comment>
   </data>
   <data name="NotificationCardRequestText" xml:space="preserve">
-    <value>Suggested by {0}</value>
+    <value>추천자: {0}</value>
     <comment>Notification card request reject text.</comment>
   </data>
   <data name="NotificationCardResponse" xml:space="preserve">
-    <value>**Response:**</value>
+    <value>**응답:**</value>
     <comment>Notification card response.</comment>
   </data>
   <data name="NotificationCardStatusText" xml:space="preserve">
-    <value>Status: {0}</value>
+    <value>상태: {0}</value>
     <comment>Notification card status text.</comment>
   </data>
   <data name="NotificationRequestCardContentText" xml:space="preserve">
-    <value>**New! Company response for approval**</value>
+    <value>**새로운 기능! 승인에 대한 회사 응답**</value>
     <comment>Notification request card content text.</comment>
   </data>
   <data name="Question" xml:space="preserve">
-    <value>Question</value>
+    <value>질문</value>
     <comment>Question text for client app.</comment>
   </data>
   <data name="Questions" xml:space="preserve">
-    <value>Question(s)</value>
+    <value>질문</value>
     <comment>Questions title text used in form for client app.</comment>
   </data>
   <data name="RefreshedNotificationCardRequestText" xml:space="preserve">
-    <value>Suggested by {0}</value>
+    <value>추천자: {0}</value>
     <comment>Notification card request text after approval or rejection.</comment>
   </data>
   <data name="RejectButtonTitle" xml:space="preserve">
-    <value>Reject</value>
+    <value>거부</value>
     <comment>Reject button title text in new suggested response notification card in SME team.</comment>
   </data>
   <data name="RejectedAdminCardLabelText" xml:space="preserve">
-    <value>Rejected: {0} by {1}</value>
+    <value>{0} {1} 님이 거부함</value>
     <comment>Show datetime and rejector name for rejected request on refreshed card.</comment>
   </data>
   <data name="RejectedCardLabelText" xml:space="preserve">
-    <value>Rejected: {0}</value>
+    <value>거부됨: {0}</value>
     <comment>Show datetime for rejected request.</comment>
   </data>
   <data name="RejectToggleCardRemarkPlaceholder" xml:space="preserve">
-    <value>Explain why this was rejected (optional)</value>
+    <value>거부된 이유 설명(선택 사항)</value>
     <comment>Reject toggle card remark placeholder text in suggested response notification card in SME team.</comment>
   </data>
   <data name="RejectToggleCardRemarkTitle" xml:space="preserve">
-    <value>Comment</value>
+    <value>설명</value>
     <comment>Reject toggle card remark title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="RejectToggleCardSubmitButtonTitle" xml:space="preserve">
-    <value>Submit</value>
+    <value>제출</value>
     <comment>Reject toggle card submit button title text in suggested response notification card in SME team.</comment>
   </data>
   <data name="RequestedOnText" xml:space="preserve">
-    <value>Requested on</value>
+    <value>요청 날짜</value>
     <comment>Requested on text in client app.</comment>
   </data>
   <data name="RequestsMenuText" xml:space="preserve">
-    <value>Requests</value>
+    <value>요청</value>
     <comment>Requests menu text in client app.</comment>
   </data>
   <data name="Response" xml:space="preserve">
-    <value>Response</value>
+    <value>응답</value>
     <comment>Response text used in form for client app.</comment>
   </data>
   <data name="SearchPlaceholder" xml:space="preserve">
-    <value>Search...</value>
+    <value>검색...</value>
     <comment>Search input placeholder in client app.</comment>
   </data>
   <data name="StatusText" xml:space="preserve">
-    <value>Status</value>
+    <value>상태</value>
     <comment>Status text in client app.</comment>
   </data>
   <data name="SuggestButtonText" xml:space="preserve">
-    <value>Suggest</value>
+    <value>추천</value>
     <comment>Suggest button text used in client app.</comment>
   </data>
   <data name="SuggestNewButtonText" xml:space="preserve">
-    <value>Suggest new</value>
+    <value>새로 추천</value>
     <comment>Suggest new button text used in client app.</comment>
   </data>
   <data name="TypeCategoryPlaceholder" xml:space="preserve">
-    <value>Type category</value>
+    <value>유형 범주</value>
     <comment>Placeholder for category text input used in form for client app.</comment>
   </data>
   <data name="TypeQuestionPlaceholder" xml:space="preserve">
-    <value>Type questions separated by semicolons (;)</value>
+    <value>세미콜론(;)으로 구분하여 질문을 입력합니다</value>
     <comment>Placeholder for question text input used in form for client app.</comment>
   </data>
   <data name="TypeResponsePlaceholder" xml:space="preserve">
-    <value>Type response</value>
+    <value>응답 형식</value>
     <comment>Placeholder for response text input used in form for client app.</comment>
   </data>
   <data name="UpdateAndShareButtonText" xml:space="preserve">
-    <value>Send update</value>
+    <value>업데이트 보내기</value>
     <comment>Update and share button text in client app.</comment>
   </data>
   <data name="UpdateButtonText" xml:space="preserve">
-    <value>Save</value>
+    <value>저장</value>
     <comment>Update button text in client app.</comment>
   </data>
   <data name="WelcomeCardChatRequestorContentText" xml:space="preserve">
-    <value>- Chat with requester.</value>
+    <value>- 요청자와 채팅을 합니다.</value>
     <comment>Welcome card content text10.</comment>
   </data>
   <data name="WelcomeCardContent" xml:space="preserve">
-    <value>Click the small version of my icon near your message formatting options to get started.</value>
+    <value>시작하려면 메시지 서식 옵션 근처 작은 버전의 내 아이콘을 클릭하세요.</value>
     <comment>Welcome card content text.</comment>
   </data>
   <data name="WelcomeCardLabelContentText" xml:space="preserve">
-    <value>- Edit response response before final submission.</value>
+    <value>- 최종 제출 전 응답을 편집합니다.</value>
     <comment>Welcome card content text9.</comment>
   </data>
   <data name="WelcomeCardResponseListContentText" xml:space="preserve">
-    <value>- Manager your personal responses.</value>
+    <value>- 개인 응답을 관리합니다.</value>
     <comment>Welcome card content text2.</comment>
   </data>
   <data name="WelcomeCardSuggestedContentText" xml:space="preserve">
-    <value>- Suggest new responses to use across company and check your request status.</value>
+    <value>- 회사 전체에 사용할 새 응답을 제안하고 요청을 상태를 확인하세요.</value>
     <comment>Welcome card content text7.</comment>
   </data>
   <data name="WelcomeCardSuggestResponseContentText" xml:space="preserve">
-    <value>- Suggest new response to add in company responses.</value>
+    <value>- 회사 응답에 추가할 새 응답을 제안하세요.</value>
     <comment>Welcome card content text4.</comment>
   </data>
   <data name="WelcomeCardThingsContentText" xml:space="preserve">
-    <value>Here are some of the things that I can do:</value>
+    <value>다음과 같은 몇 가지 작업을 수행할 수 있습니다.</value>
     <comment>Welcome card content text1.</comment>
   </data>
   <data name="WelcomeCardTitle" xml:space="preserve">
-    <value>Welcome! Hello, I can help you to manage your quick responses to search and share in chat messages.</value>
+    <value>환영합니다! 안녕하세요, 채팅 메시지에서 검색하고 공유하는 빠른 응답을 관리하는 데 도움을 드릴 수 있습니다.</value>
     <comment>Welcome card title text.</comment>
   </data>
   <data name="ForbiddenErrorMessage" xml:space="preserve">
-    <value>You cannot access this page. Contact your IT admin for permission.</value>
+    <value>이 페이지에 액세스할 수 없습니다. IT 관리자에게 권한을 요청하세요.</value>
     <comment>Forbidden http status code.</comment>
   </data>
   <data name="GeneralErrorMessage" xml:space="preserve">
-    <value>Something went wrong. Try again in a few minutes.</value>
+    <value>문제가 발생 했습니다. 몇 분 후에 다시 시도하세요.</value>
     <comment>General error message to be shown in client app.</comment>
   </data>
   <data name="RefreshLinkText" xml:space="preserve">
-    <value>Refresh</value>
+    <value>새로 고침</value>
     <comment>Refresh link text for error page in client app.</comment>
   </data>
   <data name="UnauthorizedErrorMessage" xml:space="preserve">
-    <value>Something went wrong. Try again in a few minutes.</value>
+    <value>문제가 발생 했습니다. 몇 분 후에 다시 시도하세요.</value>
     <comment>Http status code 404</comment>
   </data>
   <data name="UserCustomMessage" xml:space="preserve">
-    <value>Hello, I don't support bot commands.</value>
+    <value>안녕하세요, 봇 명령을 지원하지 않습니다.</value>
     <comment>When user asks bot a questions- a message appears saying that bot command is not supported in personal scope.</comment>
   </data>
   <data name="ErrorWhenMessageInChannel" xml:space="preserve">
-    <value>App does not support any bot commands, please use messaging extension for better results.</value>
+    <value>앱이 봇 명령을 지원하지 않습니다. 더 나은 결과를 위해 메시징 익스텐션을 사용하세요.</value>
     <comment>Error message when Admin messages in channel.</comment>
   </data>
   <data name="WelcomeCardContentForAdmin" xml:space="preserve">
-    <value>Hello, I can assist you in managing user submitted responses.</value>
+    <value>안녕하세요, 사용자가 제출한 응답을 관리할 수 있습니다.</value>
     <comment>Welcome card content text for admin.</comment>
   </data>
   <data name="ApprovedRequestStatusText" xml:space="preserve">
-    <value>Approved</value>
+    <value>승인됨</value>
     <comment>Show status as approved for approved response request to user.</comment>
   </data>
   <data name="RejectedRequestStatusText" xml:space="preserve">
-    <value>Rejected</value>
+    <value>거부됨</value>
     <comment>Show status as Rejected for Rejected response request to user.</comment>
   </data>
   <data name="MaxCompanyResponseMessage" xml:space="preserve">
-    <value>Max limit reached for approved company responses. Please contact your admin to get more details.</value>
+    <value>승인된 회사 응답에 대한 최대 한도에 도달했습니다. 자세한 내용을 보려면 관리자에게 문의하세요.</value>
     <comment>Max responses message to be displayed in client app.</comment>
   </data>
   <data name="BotCommandTakeATour" xml:space="preserve">
-    <value>Take a tour</value>
+    <value>둘러보기</value>
     <comment>Bot command take a tour</comment>
   </data>
 </root>
